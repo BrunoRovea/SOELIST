@@ -1,0 +1,609 @@
+Index,Start Time,Stop Time,Event,Description,Active
+1,25/Jan/2022 00:00:05,,*COMENT*                                        ,                                                ,No
+2,25/Jan/2022 00:00:05,,*COMENT*                                        ,                                                ,No
+3,25/Jan/2022 00:00:05,,DESLIGAMENTO LI-IPU-FI1 02 2011                 ,                                                ,No
+4,25/Jan/2022 00:00:05,,*COMENT*                                        ,                                                ,No
+5,25/Jan/2022 00:00:05,,*COMENT*                                        ,                                                ,No
+6,25/Jan/2022 00:00:09,,STATUS PT.  SF6_60  LI_IPU_FI1 87LA TRIP        ,IS PLACED IN CLOSED STATE                       ,Yes
+7,25/Jan/2022 00:00:09,,STATUS PT.  SF6_60  LI_IPU_FI1 87LA TRIP FASE A ,IS PLACED IN CLOSED STATE                       ,Yes
+8,25/Jan/2022 00:00:09,,STATUS PT.  SF6_60  LI_IPU_FI1 87LA TRIP FASE B ,IS PLACED IN CLOSED STATE                       ,Yes
+9,25/Jan/2022 00:00:09,,STATUS PT.  SF6_60  LI_IPU_FI1 87LP TRIP        ,IS PLACED IN CLOSED STATE                       ,Yes
+10,25/Jan/2022 00:00:09,,STATUS PT.  SF6_60  LI_IPU_FI1 87LP TRIP FASE A ,IS PLACED IN CLOSED STATE                       ,Yes
+11,25/Jan/2022 00:00:09,,STATUS PT.  SF6_60  LI_IPU_FI1 87LP TRIP FASE B ,IS PLACED IN CLOSED STATE                       ,Yes
+12,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  ACOPL_BARRA DISJ 06A34 A-41 ,IS PLACED IN THE OPEN STATE                     ,Yes
+13,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  LI_IPU_FI1 DISJ 06LI1 A-34  ,IS PLACED IN THE OPEN STATE                     ,Yes
+14,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  LI_IPU_FI2 DISJ 06LI2 A-39  ,IS PLACED IN THE OPEN STATE                     ,Yes
+15,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  VAO_U10 DISJ 06U10 A-31     ,IS PLACED IN THE OPEN STATE                     ,Yes
+16,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  VAO_U12 DISJ 06U12 A-36     ,IS PLACED IN THE OPEN STATE                     ,Yes
+17,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  LI_IPU_FI1 DISJ 86LI1 A-35  ,IS PLACED IN THE OPEN STATE                     ,Yes
+18,25/Jan/2022 00:00:10,,STATUS PT.  SE_FI500DISJUNTOR LOGICO IPU FI 01  ,IS PLACED IN THE OPEN STATE                     ,Yes
+19,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  LI_IPU_FI1 DISJ 06LI1 (86BF ,IS PLACED IN THE OPEN STATE                     ,Yes
+20,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  LI_IPU_FI1 DISJ 06LI1 (86BF ,IS PLACED IN THE OPEN STATE                     ,Yes
+21,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  LI_IPU_FI1 DISJ 06LI1 PROTEC,IS PLACED IN CLOSED STATE                       ,Yes
+22,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  LI_IPU_FI2 DISJ 06LI2 PROTEC,IS PLACED IN CLOSED STATE                       ,Yes
+23,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  VAO_U10 DISJ 06U10 PROTECAO ,IS PLACED IN CLOSED STATE                       ,Yes
+24,25/Jan/2022 00:00:10,,STATUS PT.  SF6_60  VAO_U12 DISJ 06U12 PROTECAO ,IS PLACED IN CLOSED STATE                       ,Yes
+25,25/Jan/2022 00:10:00,,STATUS PT.  SF6_60  ACOPL_BARRA DISJ 06A34 PROTE,IS PLACED IN CLOSED STATE                       ,Yes
+26,25/Jan/2022 00:10:00,,STATUS PT.  SF6_60  LI_IPU_FI1 DISJ 06LI1 (86BF ,IS PLACED IN THE OPEN STATE                     ,Yes
+27,25/Jan/2022 00:10:00,,STATUS PT.  SF6_60  LI_IPU_FI2 DISJ 06LI2 PROTEC,IS PLACED IN CLOSED STATE                       ,Yes
+28,25/Jan/2022 00:10:00,,STATUS PT.  SF6_60  VAO_U10 DISJ 06U10 PROTECAO ,IS PLACED IN CLOSED STATE                       ,Yes
+29,25/Jan/2022 00:10:00,,STATUS PT.  SF6_60  VAO_U12 DISJ 06U12 PROTECAO ,IS PLACED IN CLOSED STATE                       ,Yes
+30,25/Jan/2022 00:10:15,,*COMENT*                                        ,                                                ,No
+31,25/Jan/2022 00:10:15,,*COMENT*                                        ,                                                ,No
+32,25/Jan/2022 00:10:15,,DESLIGAMENTO LI-IPU-FI1 02 2011 - FIM           ,                                                ,No
+33,25/Jan/2022 00:10:16,,*COMENT*                                        ,                                                ,No
+34,25/Jan/2022 00:10:16,,*COMENT*                                        ,                                                ,No
+35,26/Jan/2022 00:00:06,,GERADOR 20HZ 18 2021 - INICIO                   ,                                                ,No
+36,26/Jan/2022 00:00:07,,*COMENT*                                        ,                                                ,No
+37,26/Jan/2022 00:00:07,,*COMENT*                                        ,                                                ,No
+38,26/Jan/2022 00:00:08,,STATUS PT.  U11     EXCITACAO RELE 40 PROT BLOQU,IS PLACED IN CLOSED STATE                       ,Yes
+39,26/Jan/2022 00:00:08,,STATUS PT.  U11     GERADOR GERADOR 20HZ P/RELE ,IS PLACED IN CLOSED STATE                       ,Yes
+40,26/Jan/2022 00:00:08,,STATUS PT.  U11     GERADOR POTENCIAL PROT/MEDIC,IS PLACED IN CLOSED STATE                       ,Yes
+41,26/Jan/2022 00:00:09,,*COMENT*                                        ,                                                ,No
+42,26/Jan/2022 00:00:09,,*COMENT*                                        ,                                                ,No
+43,26/Jan/2022 00:00:09,,GERADOR 20HZ 18 2021 - FIM                      ,                                                ,No
+44,27/Jan/2022 00:08:00,,*COMENT*                                        ,                                                ,No
+45,27/Jan/2022 00:08:00,,*COMENT*                                        ,                                                ,No
+46,28/Jan/2022 00:00:00,,**ATUACAO 05A RAP18/2014 - INICIO**             ,                                                ,No
+47,28/Jan/2022 00:00:01,,*COMENT*                                        ,                                                ,No
+48,28/Jan/2022 00:00:01,,*COMENT*                                        ,                                                ,No
+49,28/Jan/2022 00:00:10,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-07 CONDICAO U,IS PLACED IN CLOSED STATE                       ,Yes
+50,28/Jan/2022 00:00:10,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-08 CONDICAO U,IS PLACED IN CLOSED STATE                       ,Yes
+51,28/Jan/2022 00:00:15,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-07 CONDICAO U,IS PLACED IN THE OPEN STATE                     ,Yes
+52,28/Jan/2022 00:00:15,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-08 CONDICAO U,IS PLACED IN THE OPEN STATE                     ,Yes
+53,28/Jan/2022 00:00:20,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-07 CONDICAO U,IS PLACED IN CLOSED STATE                       ,Yes
+54,28/Jan/2022 00:00:20,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-08 CONDICAO U,IS PLACED IN CLOSED STATE                       ,Yes
+55,28/Jan/2022 00:00:32,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-07 CONDICAO U,IS PLACED IN THE OPEN STATE                     ,Yes
+56,28/Jan/2022 00:00:32,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-08 CONDICAO U,IS PLACED IN THE OPEN STATE                     ,Yes
+57,28/Jan/2022 00:00:53,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-07 CONDICAO U,IS PLACED IN CLOSED STATE                       ,Yes
+58,28/Jan/2022 00:00:53,,STATUS PT.  SSAA_60 AUXILIAR_CC CB-08 CONDICAO U,IS PLACED IN CLOSED STATE                       ,Yes
+59,28/Jan/2022 00:01:00,,STATUS PT.  SF6_60  VAO_U15 DISJ 86U15 A-45     ,IS PLACED IN THE OPEN STATE                     ,Yes
+60,28/Jan/2022 00:01:00,,STATUS PT.  U12     SUPERV/CONTR RELE 05A PARADA,IS PLACED IN CLOSED STATE                       ,Yes
+61,28/Jan/2022 00:01:00,,STATUS PT.  U13     SUPERV/CONTR RELE 05A PARADA,IS PLACED IN CLOSED STATE                       ,Yes
+62,28/Jan/2022 00:01:00,,STATUS PT.  U14     SUPERV/CONTR RELE 05A PARADA,IS PLACED IN CLOSED STATE                       ,Yes
+63,28/Jan/2022 00:01:00,,STATUS PT.  U15     SUPERV/CONTR RELE 05A PARADA,IS PLACED IN CLOSED STATE                       ,Yes
+64,28/Jan/2022 00:01:09,,***COMENT***                                    ,                                                ,No
+65,28/Jan/2022 00:01:09,,***COMENT***                                    ,                                                ,No
+66,28/Jan/2022 00:01:10,,**ATUACAO 05A RAP18/2014 - FIM**                ,                                                ,No
+67,29/Jan/2022 00:00:00,,***COMENT***                                    ,                                                ,No
+68,29/Jan/2022 00:00:00,,***COMENT***                                    ,                                                ,No
+69,29/Jan/2022 23:00:00,,CENARIO CLP U18                                 ,                                                ,No
+70,29/Jan/2022 23:00:10,,***COMENT***                                    ,                                                ,No
+71,29/Jan/2022 23:00:10,,***COMENT***                                    ,                                                ,No
+72,30/Jan/2022 00:00:00,,PROTECAO LINHAS                                 ,                                                ,No
+73,30/Jan/2022 00:00:00,,STATUS PT.  SF6_60  LI_IPU_FI1 67NP PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+74,30/Jan/2022 00:00:00,,STATUS PT.  SF6_60  LI_IPU_FI2 67NA PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+75,30/Jan/2022 00:00:00,,STATUS PT.  SF6_60  LI_IPU_FI3 67NA PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+76,30/Jan/2022 00:00:00,,STATUS PT.  SF6_60  LI_IPU_FI4 67NP PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+77,30/Jan/2022 00:00:02,,STATUS PT.  SF6_60  LI_IPU_FI1 67NP PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+78,30/Jan/2022 00:00:02,,STATUS PT.  SF6_60  LI_IPU_FI2 67NA PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+79,30/Jan/2022 00:00:02,,STATUS PT.  SF6_60  LI_IPU_FI3 67NA PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+80,30/Jan/2022 00:00:02,,STATUS PT.  SF6_60  LI_IPU_FI4 67NP PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+81,30/Jan/2022 00:00:15,,STATUS PT.  SF6_60  LI_IPU_FI1 67NP PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+82,30/Jan/2022 00:00:15,,STATUS PT.  SF6_60  LI_IPU_FI2 67NA PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+83,30/Jan/2022 00:00:15,,STATUS PT.  SF6_60  LI_IPU_FI3 67NA PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+84,30/Jan/2022 00:00:15,,STATUS PT.  SF6_60  LI_IPU_FI4 67NP PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+85,30/Jan/2022 00:00:17,,STATUS PT.  SF6_60  LI_IPU_FI1 67NP PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+86,30/Jan/2022 00:00:17,,STATUS PT.  SF6_60  LI_IPU_FI2 67NA PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+87,30/Jan/2022 00:00:17,,STATUS PT.  SF6_60  LI_IPU_FI3 67NA PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+88,30/Jan/2022 00:00:17,,STATUS PT.  SF6_60  LI_IPU_FI4 67NP PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+89,30/Jan/2022 00:00:30,,STATUS PT.  SF6_60  LI_IPU_FI1 67NP PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+90,30/Jan/2022 00:00:30,,STATUS PT.  SF6_60  LI_IPU_FI2 67NA PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+91,30/Jan/2022 00:00:30,,STATUS PT.  SF6_60  LI_IPU_FI3 67NA PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+92,30/Jan/2022 00:00:30,,STATUS PT.  SF6_60  LI_IPU_FI4 67NP PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+93,30/Jan/2022 00:00:32,,STATUS PT.  SF6_60  LI_IPU_FI1 67NP PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+94,30/Jan/2022 00:00:32,,STATUS PT.  SF6_60  LI_IPU_FI2 67NA PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+95,30/Jan/2022 00:00:32,,STATUS PT.  SF6_60  LI_IPU_FI3 67NA PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+96,30/Jan/2022 00:00:32,,STATUS PT.  SF6_60  LI_IPU_FI4 67NP PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+97,30/Jan/2022 00:00:56,,STATUS PT.  SF6_60  LI_IPU_FI1 67NP PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+98,30/Jan/2022 00:00:56,,STATUS PT.  SF6_60  LI_IPU_FI2 67NA PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+99,30/Jan/2022 00:00:56,,STATUS PT.  SF6_60  LI_IPU_FI3 67NA PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+100,30/Jan/2022 00:00:56,,STATUS PT.  SF6_60  LI_IPU_FI4 67NP PARTIDA A FR,IS PLACED IN CLOSED STATE                       ,Yes
+101,30/Jan/2022 00:00:58,,STATUS PT.  SF6_60  LI_IPU_FI1 67NP PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+102,30/Jan/2022 00:00:58,,STATUS PT.  SF6_60  LI_IPU_FI2 67NA PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+103,30/Jan/2022 00:00:58,,STATUS PT.  SF6_60  LI_IPU_FI3 67NA PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+104,30/Jan/2022 00:00:58,,STATUS PT.  SF6_60  LI_IPU_FI4 67NP PARTIDA A FR,IS PLACED IN THE OPEN STATE                     ,Yes
+105,30/Jan/2022 00:01:00,,STATUS PT.  ECE_60  1EPIC PP CORTE_1UG          ,IS PLACED IN CLOSED STATE                       ,Yes
+106,30/Jan/2022 00:01:00,,STATUS PT.  ECE_60  1EPIC PP U18 TRIP           ,IS PLACED IN CLOSED STATE                       ,Yes
+107,30/Jan/2022 00:01:00,,STATUS PT.  ECE_60  SEP_765 PA LT_IA-TP_2 PERDA_,IS PLACED IN CLOSED STATE                       ,Yes
+108,30/Jan/2022 00:01:00,,STATUS PT.  ECE_60  SEP_765 PP ATUADO           ,IS PLACED IN CLOSED STATE                       ,Yes
+109,30/Jan/2022 00:01:00,,STATUS PT.  ECE_60  SEP_765 PP SEIPU60 CORTE_1UG,IS PLACED IN CLOSED STATE                       ,Yes
+110,30/Jan/2022 00:01:00,,STATUS PT.  U18     SUPERV/CONTR RELE 05A PARADA,IS PLACED IN CLOSED STATE                       ,Yes
+111,30/Jan/2022 00:01:01,,STATUS PT.  SF6_60  VAO_U18 DISJ 06U18 A-55     ,IS PLACED IN THE OPEN STATE                     ,Yes
+112,30/Jan/2022 00:01:01,,STATUS PT.  SF6_60  VAO_U18/18A DISJ 46U88 A-56 ,IS PLACED IN THE OPEN STATE                     ,Yes
+113,30/Jan/2022 00:01:01,,STATUS PT.  CCR_60  CLP ATUACAO CORTE GERACAO   ,IS PLACED IN THE OPEN STATE                     ,Yes
+114,30/Jan/2022 00:01:01,,STATUS PT.  ECE_765 CLP ATUACAO CORTE GERACAO   ,IS PLACED IN CLOSED STATE                       ,Yes
+115,30/Jan/2022 00:01:01,,STATUS PT.  SF6_60  ISOL_FORCADA DISPARO UNIDADE,IS PLACED IN THE OPEN STATE                     ,Yes
+116,30/Jan/2022 00:01:01,,STATUS PT.  SF6_60  ISOL_FORCADA DISPARO UNIDADE,IS PLACED IN CLOSED STATE                       ,Yes
+117,30/Jan/2022 00:01:01,,STATUS PT.  U18     SUPERV/CONTR RELE 05A PARADA,IS PLACED IN CLOSED STATE                       ,Yes
+118,30/Jan/2022 00:01:01,,ANALOG PT.  U18     GERADOR TENSAO              ,IS SET TO OVERRIDE VALUE     17.8000            ,Yes
+119,30/Jan/2022 00:01:01,,ANALOG PT.  U18     EXCITACAO CORRENTE DE CAMPO ,IS SET TO   2190.0000                           ,Yes
+120,30/Jan/2022 00:01:01,,ANALOG PT.  U18     REG_VELOC DISTRIBUIDOR POSIC,IS SET TO     15.0000                           ,Yes
+121,30/Jan/2022 00:01:01,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO    100.0000                           ,Yes
+122,30/Jan/2022 00:01:10,,*COMENT*                                        ,                                                ,No
+123,30/Jan/2022 00:01:10,,*COMENT*                                        ,                                                ,No
+124,30/Jan/2022 00:01:10,,*COMENT*                                        ,                                                ,No
+125,30/Jan/2022 00:01:12,,*COMENT*                                        ,                                                ,No
+126,30/Jan/2022 00:01:12,,*COMENT*                                        ,                                                ,No
+127,30/Jan/2022 00:01:25,,STATUS PT.  U18     SUPERV/CONTR RELE 05 PARADA ,IS PLACED IN THE OPEN STATE                     ,Yes
+128,30/Jan/2022 00:01:25,,STATUS PT.  U18     SUPERV/CONTR RELE 05A PARADA,IS PLACED IN THE OPEN STATE                     ,Yes
+129,30/Jan/2022 00:01:30,,*COMENT*                                        ,                                                ,No
+130,30/Jan/2022 00:01:30,,*COMENT*                                        ,                                                ,No
+131,30/Jan/2022 00:01:30,,*COMENT*                                        ,                                                ,No
+132,30/Jan/2022 00:02:00,,STATUS PT.  SF6_60  VAO_U18 DISJ 06U18 NITROG PR,IS PLACED IN CLOSED STATE                       ,Yes
+133,30/Jan/2022 00:02:10,,*COMENT*                                        ,                                                ,No
+134,30/Jan/2022 00:02:10,,*COMENT*                                        ,                                                ,No
+135,30/Jan/2022 00:04:00,,STATUS PT.  SF6_60  VAO_U18/18A DISJ 46U88 A-56 ,IS PLACED IN THE OPEN STATE                     ,Yes
+136,30/Jan/2022 00:04:00,,STATUS PT.  SF6_60  VAO_U18 DISJ 06U18 (86BF)   ,IS PLACED IN CLOSED STATE                       ,Yes
+137,30/Jan/2022 00:04:00,,STATUS PT.  U18     GERADOR RELE 86E ULP-18     ,IS PLACED IN CLOSED STATE                       ,Yes
+138,30/Jan/2022 00:04:00,,STATUS PT.  U18     GERADOR RELE 86N ULP-18     ,IS PLACED IN CLOSED STATE                       ,Yes
+139,30/Jan/2022 00:04:00,,STATUS PT.  U18     SUPERV/CONTR TEMPO DESACELER,IS PLACED IN CLOSED STATE                       ,Yes
+140,30/Jan/2022 00:04:00,,STATUS PT.  U18     SUPERV/CONTR TEMPO TOTAL PAR,IS PLACED IN CLOSED STATE                       ,Yes
+141,30/Jan/2022 00:04:02,,STATUS PT.  SF6_60  ACOPL_BARRA DISJ 06A34 A-41 ,IS PLACED IN THE OPEN STATE                     ,Yes
+142,30/Jan/2022 00:04:02,,STATUS PT.  SF6_60  LI_IPU_FI3 DISJ 06LI3 A-48  ,IS PLACED IN THE OPEN STATE                     ,Yes
+143,30/Jan/2022 00:04:02,,STATUS PT.  SF6_60  LI_IPU_FI4 DISJ 06LI4 A-53  ,IS PLACED IN THE OPEN STATE                     ,Yes
+144,30/Jan/2022 00:04:02,,STATUS PT.  SF6_60  VAO_TA02 DISJ 06TA2 A-46    ,IS PLACED IN THE OPEN STATE                     ,Yes
+145,30/Jan/2022 00:04:02,,STATUS PT.  SF6_60  VAO_U14 DISJ 06U14 A-43     ,IS PLACED IN THE OPEN STATE                     ,Yes
+146,30/Jan/2022 00:04:02,,STATUS PT.  SF6_60  VAO_U16 DISJ 06U16 A-50     ,IS PLACED IN THE OPEN STATE                     ,Yes
+147,30/Jan/2022 00:04:02,,STATUS PT.  SF6_60  BARRA A4 (86BF-A4 PROT ALT) ,IS PLACED IN CLOSED STATE                       ,Yes
+148,30/Jan/2022 00:04:02,,STATUS PT.  SF6_60  BARRA A4 (86BF-A4 PROT PRIM),IS PLACED IN CLOSED STATE                       ,Yes
+149,30/Jan/2022 00:04:03,,*PARADA U18*                                    ,                                                ,No
+150,30/Jan/2022 00:04:04,30/Jan/2022 00:13:08,STATUS PT.  SF6_60  VAO_U18/18A DISJ 46U88 PROTE,IS PLACED IN CLOSED STATE                       ,Yes
+151,30/Jan/2022 00:04:04,30/Jan/2022 00:13:06,STATUS PT.  U18     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+152,30/Jan/2022 00:04:04,30/Jan/2022 00:13:06,STATUS PT.  U18     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+153,30/Jan/2022 00:04:05,,STATUS PT.  U18     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN THE OPEN STATE                     ,Yes
+154,30/Jan/2022 00:04:05,30/Jan/2022 00:11:57,STATUS PT.  U18     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN CLOSED STATE                       ,Yes
+155,30/Jan/2022 00:04:05,,STATUS PT.  U18     REG_VELOC REALIMENTACAO     ,IS PLACED IN THE OPEN STATE                     ,Yes
+156,30/Jan/2022 00:04:07,,STATUS PT.  U18     AUX_UNIDADE DISJ 52-1 UMCC-1,IS PLACED IN THE OPEN STATE                     ,Yes
+157,30/Jan/2022 00:04:08,30/Jan/2022 00:04:10,STATUS PT.  U18     AGUA_PURA BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+158,30/Jan/2022 00:04:08,30/Jan/2022 00:04:10,STATUS PT.  U18     AGUA_PURA BOMBA 1 TENSAO 120,IS PLACED IN CLOSED STATE                       ,Yes
+159,30/Jan/2022 00:04:08,30/Jan/2022 00:04:10,STATUS PT.  U18     AUX_UNIDADE VENTILADOR 1 ANE,IS PLACED IN THE OPEN STATE                     ,Yes
+160,30/Jan/2022 00:04:08,30/Jan/2022 00:04:10,STATUS PT.  U18     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN THE OPEN STATE                     ,Yes
+161,30/Jan/2022 00:04:08,30/Jan/2022 00:04:10,STATUS PT.  U18     TU KT-18 TENSAO CA 460VCA   ,IS PLACED IN CLOSED STATE                       ,Yes
+162,30/Jan/2022 00:04:08,30/Jan/2022 00:04:10,STATUS PT.  U18     TU KT-18 TENSAO CA COMANDO F,IS PLACED IN CLOSED STATE                       ,Yes
+163,30/Jan/2022 00:04:08,30/Jan/2022 00:04:10,STATUS PT.  U18     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+164,30/Jan/2022 00:04:08,30/Jan/2022 00:04:10,STATUS PT.  U18     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN CLOSED STATE                       ,Yes
+165,30/Jan/2022 00:04:08,30/Jan/2022 00:04:10,STATUS PT.  U18     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN CLOSED STATE                       ,Yes
+166,30/Jan/2022 00:04:08,,ANALOG PT.  U18     GERADOR FREQUENCIA          ,IS SET TO OVERRIDE VALUE     46.0000            ,Yes
+167,30/Jan/2022 00:04:08,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     98.0000                           ,Yes
+168,30/Jan/2022 00:04:09,,STATUS PT.  U18     AUX_UNIDADE DISJ 52-2 UMCC-1,IS PLACED IN CLOSED STATE                       ,Yes
+169,30/Jan/2022 00:04:09,,STATUS PT.  U18     REG_VELOC VALV SOLENOIDE BA ,IS PLACED IN THE OPEN STATE                     ,Yes
+170,30/Jan/2022 00:04:09,,STATUS PT.  U18     REG_VELOC VALV SOLENOIDE BB ,IS PLACED IN THE OPEN STATE                     ,Yes
+171,30/Jan/2022 00:04:09,,ANALOG PT.  U18     GERADOR TENSAO RDV          ,IS SET TO OVERRIDE VALUE      0.0000            ,Yes
+172,30/Jan/2022 00:04:10,,ANALOG PT.  U18     EXCITACAO POTENCIOMETRO AUTO,IS SET TO      0.0000                           ,Yes
+173,30/Jan/2022 00:04:10,,ANALOG PT.  U18     EXCITACAO POTENCIOMETRO MANU,IS SET TO      0.0000                           ,Yes
+174,30/Jan/2022 00:04:10,,ANALOG PT.  U18     GERADOR CORRENTE            ,IS SET TO      0.0000                           ,Yes
+175,30/Jan/2022 00:04:10,,ANALOG PT.  U18     REG_VELOC DISTRIBUIDOR POSIC,IS SET TO      0.0000                           ,Yes
+176,30/Jan/2022 00:04:11,,STATUS PT.  U18     EXCITACAO EXCITACAO CONECTAD,IS PLACED IN THE OPEN STATE                     ,Yes
+177,30/Jan/2022 00:04:11,,STATUS PT.  U18     EXCITACAO PRONTO PARA OPERAC,IS PLACED IN CLOSED STATE                       ,Yes
+178,30/Jan/2022 00:04:11,30/Jan/2022 00:11:57,STATUS PT.  U18     GERADOR BOMBA MANC ESC OLEO ,IS PLACED IN CLOSED STATE                       ,Yes
+179,30/Jan/2022 00:04:11,,STATUS PT.  U18     REG_VELOC DISTRIBUIDOR FECHA,IS PLACED IN CLOSED STATE                       ,Yes
+180,30/Jan/2022 00:04:11,,STATUS PT.  U18     SUPERV/CONTR CARG/FREQ AJUST,IS PLACED IN CLOSED STATE                       ,Yes
+181,30/Jan/2022 00:04:11,,STATUS PT.  U18     SUPERV/CONTR UN PREPARACAO D,IS PLACED IN THE OPEN STATE                     ,Yes
+182,30/Jan/2022 00:04:12,,STATUS PT.  U18     EXCITACAO REG TENS AUTO/MAN ,IS PLACED IN CLOSED STATE                       ,Yes
+183,30/Jan/2022 00:04:13,,STATUS PT.  U18     REG_VELOC TRAVA HIDRAULICA D,IS PLACED IN THE OPEN STATE                     ,Yes
+184,30/Jan/2022 00:04:14,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     94.0000                           ,Yes
+185,30/Jan/2022 00:04:21,,STATUS PT.  U18     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+186,30/Jan/2022 00:04:22,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     89.0000                           ,Yes
+187,30/Jan/2022 00:04:33,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     75.0000                           ,Yes
+188,30/Jan/2022 00:04:34,,STATUS PT.  U18     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+189,30/Jan/2022 00:04:35,,STATUS PT.  U18     AGUA_PURA LIBERACAO PARA EXC,IS PLACED IN THE OPEN STATE                     ,Yes
+190,30/Jan/2022 00:04:43,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     66.0000                           ,Yes
+191,30/Jan/2022 00:04:58,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     52.0000                           ,Yes
+192,30/Jan/2022 00:05:14,,STATUS PT.  U18     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+193,30/Jan/2022 00:05:26,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     45.0000                           ,Yes
+194,30/Jan/2022 00:05:42,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     42.0000                           ,Yes
+195,30/Jan/2022 00:05:58,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     39.0000                           ,Yes
+196,30/Jan/2022 00:06:13,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     35.0000                           ,Yes
+197,30/Jan/2022 00:06:30,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     32.0000                           ,Yes
+198,30/Jan/2022 00:06:48,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     29.0000                           ,Yes
+199,30/Jan/2022 00:07:03,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     26.0000                           ,Yes
+200,30/Jan/2022 00:07:24,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     24.0000                           ,Yes
+201,30/Jan/2022 00:07:52,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     22.0000                           ,Yes
+202,30/Jan/2022 00:08:24,,STATUS PT.  U18     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN THE OPEN STATE                     ,Yes
+203,30/Jan/2022 00:08:24,,STATUS PT.  U18     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN THE OPEN STATE                     ,Yes
+204,30/Jan/2022 00:08:26,30/Jan/2022 00:11:05,STATUS PT.  U18     GERADOR UN COMANDO DE APLICA,IS PLACED IN CLOSED STATE                       ,Yes
+205,30/Jan/2022 00:08:26,30/Jan/2022 00:08:55,STATUS PT.  U18     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+206,30/Jan/2022 00:08:28,30/Jan/2022 00:11:38,STATUS PT.  U18     GERADOR FREIOS DESAPLICADOS ,IS PLACED IN THE OPEN STATE                     ,Yes
+207,30/Jan/2022 00:08:32,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     18.0000                           ,Yes
+208,30/Jan/2022 00:08:35,30/Jan/2022 00:11:31,STATUS PT.  U18     GERADOR FREIOS APLICADOS    ,IS PLACED IN CLOSED STATE                       ,Yes
+209,30/Jan/2022 00:09:05,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO     12.0000                           ,Yes
+210,30/Jan/2022 00:09:35,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO      5.0000                           ,Yes
+211,30/Jan/2022 00:10:05,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO      3.0000                           ,Yes
+212,30/Jan/2022 00:10:35,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO      2.0000                           ,Yes
+213,30/Jan/2022 00:10:48,,STATUS PT.  U18     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+214,30/Jan/2022 00:10:48,,ANALOG PT.  U18     REG_VELOC VELOCIDADE DA UNID,IS SET TO      0.0000                           ,Yes
+215,30/Jan/2022 00:10:54,,STATUS PT.  U18     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+216,30/Jan/2022 00:10:55,,STATUS PT.  U18     GERADOR RES AQUEC BASE INFER,IS PLACED IN CLOSED STATE                       ,Yes
+217,30/Jan/2022 00:10:55,,STATUS PT.  U18     GERADOR RESIST AQUEC REC GER,IS PLACED IN CLOSED STATE                       ,Yes
+218,30/Jan/2022 00:10:55,,STATUS PT.  U18     GERADOR RESIST AQUEC RECINTO,IS PLACED IN CLOSED STATE                       ,Yes
+219,30/Jan/2022 00:10:56,,STATUS PT.  SF6_60  VAO_U18 SEC 96U18 A-55      ,IS PLACED IN THE OPEN STATE                     ,Yes
+220,30/Jan/2022 00:10:56,,STATUS PT.  U18     REG_VELOC BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+221,30/Jan/2022 00:10:56,,STATUS PT.  U18     REG_VELOC BOMBA 2           ,IS PLACED IN THE OPEN STATE                     ,Yes
+222,30/Jan/2022 00:10:56,,STATUS PT.  U18     REG_VELOC BOMBA 3           ,IS PLACED IN THE OPEN STATE                     ,Yes
+223,30/Jan/2022 00:10:56,,STATUS PT.  U18     REG_VELOC VALV ISOLADORA 20Q,IS PLACED IN THE OPEN STATE                     ,Yes
+224,30/Jan/2022 00:11:06,,STATUS PT.  U18     EXCITACAO SISTEMA RESFRIAMEN,IS PLACED IN THE OPEN STATE                     ,Yes
+225,30/Jan/2022 00:11:14,,STATUS PT.  U18     AGUA_PURA AGUA PURA PRONTA P,IS PLACED IN CLOSED STATE                       ,Yes
+226,30/Jan/2022 00:11:14,,STATUS PT.  U18     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+227,30/Jan/2022 00:11:15,,STATUS PT.  U18     SUPERV/CONTR UN PRONTA PARA ,IS PLACED IN CLOSED STATE                       ,Yes
+228,30/Jan/2022 00:11:38,,STATUS PT.  U18     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+229,30/Jan/2022 00:11:38,,STATUS PT.  U18     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+230,31/Jan/2022 00:00:10,,**COMENT**                                      ,                                                ,No
+231,31/Jan/2022 00:00:10,,**COMENT**                                      ,                                                ,No
+232,31/Jan/2022 00:00:10,,**RELE 95V/HZ RAP09/2018 - INICIO**             ,                                                ,No
+233,31/Jan/2022 00:00:10,,**COMENT**                                      ,                                                ,No
+234,31/Jan/2022 00:00:10,,**COMENT**                                      ,                                                ,No
+235,31/Jan/2022 00:00:15,,STATUS PT.  U17     GERADOR RELE 86E ULP-17     ,IS PLACED IN CLOSED STATE                       ,Yes
+236,31/Jan/2022 00:00:15,,STATUS PT.  U17     GERADOR RELE 95 V/HZ        ,IS PLACED IN THE OPEN STATE                     ,Yes
+237,31/Jan/2022 00:00:16,,**COMENT**                                      ,                                                ,No
+238,31/Jan/2022 00:00:16,,**SEQUENCIA DE PARADA U17 - INICIO**            ,                                                ,No
+239,31/Jan/2022 00:00:16,,**COMENT**                                      ,                                                ,No
+240,31/Jan/2022 00:00:17,,STATUS PT.  SF6_60  VAO_U16/17 DISJ 46U67 A-51  ,IS PLACED IN THE OPEN STATE                     ,Yes
+241,31/Jan/2022 00:00:17,,STATUS PT.  SF6_60  VAO_U17 DISJ 86U17 A-52     ,IS PLACED IN THE OPEN STATE                     ,Yes
+242,31/Jan/2022 00:00:17,31/Jan/2022 00:09:21,STATUS PT.  SF6_60  VAO_U16/17 DISJ 46U67 PROTEC,IS PLACED IN CLOSED STATE                       ,Yes
+243,31/Jan/2022 00:00:17,31/Jan/2022 00:09:21,STATUS PT.  SF6_60  VAO_U17 DISJ 86U17 PROTECAO ,IS PLACED IN CLOSED STATE                       ,Yes
+244,31/Jan/2022 00:00:17,31/Jan/2022 00:09:19,STATUS PT.  U17     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+245,31/Jan/2022 00:00:17,31/Jan/2022 00:09:19,STATUS PT.  U17     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+246,31/Jan/2022 00:00:17,,GEN. UNIT   U17                                 ,IMMEDIATELY SHUT DOWN AND ITS BREAKER OPENED    ,Yes
+247,31/Jan/2022 00:00:18,,STATUS PT.  U17     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN THE OPEN STATE                     ,Yes
+248,31/Jan/2022 00:00:18,31/Jan/2022 00:08:10,STATUS PT.  U17     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN CLOSED STATE                       ,Yes
+249,31/Jan/2022 00:00:18,,STATUS PT.  U17     REG_VELOC REALIMENTACAO     ,IS PLACED IN THE OPEN STATE                     ,Yes
+250,31/Jan/2022 00:00:20,,STATUS PT.  U17     AUX_UNIDADE DISJ 52-1 UMCC-1,IS PLACED IN THE OPEN STATE                     ,Yes
+251,31/Jan/2022 00:00:21,31/Jan/2022 00:00:23,STATUS PT.  U17     AGUA_PURA BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+252,31/Jan/2022 00:00:21,31/Jan/2022 00:00:23,STATUS PT.  U17     AGUA_PURA BOMBA 1 TENSAO 120,IS PLACED IN CLOSED STATE                       ,Yes
+253,31/Jan/2022 00:00:21,31/Jan/2022 00:00:23,STATUS PT.  U17     AUX_UNIDADE VENTILADOR 1 ANE,IS PLACED IN THE OPEN STATE                     ,Yes
+254,31/Jan/2022 00:00:21,31/Jan/2022 00:00:23,STATUS PT.  U17     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN THE OPEN STATE                     ,Yes
+255,31/Jan/2022 00:00:21,31/Jan/2022 00:00:23,STATUS PT.  U17     TU KT-17 TENSAO CA 460VCA   ,IS PLACED IN CLOSED STATE                       ,Yes
+256,31/Jan/2022 00:00:21,31/Jan/2022 00:00:23,STATUS PT.  U17     TU KT-17 TENSAO CA COMANDO F,IS PLACED IN CLOSED STATE                       ,Yes
+257,31/Jan/2022 00:00:21,31/Jan/2022 00:00:23,STATUS PT.  U17     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+258,31/Jan/2022 00:00:21,31/Jan/2022 00:00:23,STATUS PT.  U17     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN CLOSED STATE                       ,Yes
+259,31/Jan/2022 00:00:21,31/Jan/2022 00:00:23,STATUS PT.  U17     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN CLOSED STATE                       ,Yes
+260,31/Jan/2022 00:00:21,,ANALOG PT.  U17     GERADOR FREQUENCIA          ,IS SET TO OVERRIDE VALUE     46.0000            ,Yes
+261,31/Jan/2022 00:00:21,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     98.0000                           ,Yes
+262,31/Jan/2022 00:00:22,,STATUS PT.  U17     AUX_UNIDADE DISJ 52-2 UMCC-1,IS PLACED IN CLOSED STATE                       ,Yes
+263,31/Jan/2022 00:00:22,,STATUS PT.  U17     REG_VELOC VALV SOLENOIDE BA ,IS PLACED IN THE OPEN STATE                     ,Yes
+264,31/Jan/2022 00:00:22,,STATUS PT.  U17     REG_VELOC VALV SOLENOIDE BB ,IS PLACED IN THE OPEN STATE                     ,Yes
+265,31/Jan/2022 00:00:22,,ANALOG PT.  U17     GERADOR TENSAO RDV          ,IS SET TO OVERRIDE VALUE      0.0000            ,Yes
+266,31/Jan/2022 00:00:23,,ANALOG PT.  U17     EXCITACAO POTENCIOMETRO AUTO,IS SET TO      0.0000                           ,Yes
+267,31/Jan/2022 00:00:23,,ANALOG PT.  U17     EXCITACAO POTENCIOMETRO MANU,IS SET TO      0.0000                           ,Yes
+268,31/Jan/2022 00:00:23,,ANALOG PT.  U17     GERADOR CORRENTE            ,IS SET TO      0.0000                           ,Yes
+269,31/Jan/2022 00:00:23,,ANALOG PT.  U17     REG_VELOC DISTRIBUIDOR POSIC,IS SET TO      0.0000                           ,Yes
+270,31/Jan/2022 00:00:24,,STATUS PT.  U17     EXCITACAO EXCITACAO CONECTAD,IS PLACED IN THE OPEN STATE                     ,Yes
+271,31/Jan/2022 00:00:24,,STATUS PT.  U17     EXCITACAO PRONTO PARA OPERAC,IS PLACED IN CLOSED STATE                       ,Yes
+272,31/Jan/2022 00:00:24,31/Jan/2022 00:08:10,STATUS PT.  U17     GERADOR BOMBA MANC ESC OLEO ,IS PLACED IN CLOSED STATE                       ,Yes
+273,31/Jan/2022 00:00:24,,STATUS PT.  U17     REG_VELOC DISTRIBUIDOR FECHA,IS PLACED IN CLOSED STATE                       ,Yes
+274,31/Jan/2022 00:00:24,,STATUS PT.  U17     SUPERV/CONTR CARG/FREQ AJUST,IS PLACED IN CLOSED STATE                       ,Yes
+275,31/Jan/2022 00:00:24,,STATUS PT.  U17     SUPERV/CONTR UN PREPARACAO D,IS PLACED IN THE OPEN STATE                     ,Yes
+276,31/Jan/2022 00:00:25,,STATUS PT.  U17     EXCITACAO REG TENS AUTO/MAN ,IS PLACED IN CLOSED STATE                       ,Yes
+277,31/Jan/2022 00:00:26,,STATUS PT.  U17     REG_VELOC TRAVA HIDRAULICA D,IS PLACED IN THE OPEN STATE                     ,Yes
+278,31/Jan/2022 00:00:27,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     94.0000                           ,Yes
+279,31/Jan/2022 00:00:34,,STATUS PT.  U17     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+280,31/Jan/2022 00:00:35,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     89.0000                           ,Yes
+281,31/Jan/2022 00:00:46,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     75.0000                           ,Yes
+282,31/Jan/2022 00:00:47,,STATUS PT.  U17     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+283,31/Jan/2022 00:00:48,,STATUS PT.  U17     AGUA_PURA LIBERACAO PARA EXC,IS PLACED IN THE OPEN STATE                     ,Yes
+284,31/Jan/2022 00:00:56,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     66.0000                           ,Yes
+285,31/Jan/2022 00:01:11,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     52.0000                           ,Yes
+286,31/Jan/2022 00:01:27,,STATUS PT.  U17     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+287,31/Jan/2022 00:01:39,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     45.0000                           ,Yes
+288,31/Jan/2022 00:01:55,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     42.0000                           ,Yes
+289,31/Jan/2022 00:02:11,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     39.0000                           ,Yes
+290,31/Jan/2022 00:02:26,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     35.0000                           ,Yes
+291,31/Jan/2022 00:02:43,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     32.0000                           ,Yes
+292,31/Jan/2022 00:03:01,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     29.0000                           ,Yes
+293,31/Jan/2022 00:03:16,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     26.0000                           ,Yes
+294,31/Jan/2022 00:03:37,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     24.0000                           ,Yes
+295,31/Jan/2022 00:04:05,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     22.0000                           ,Yes
+296,31/Jan/2022 00:04:37,,STATUS PT.  U17     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN THE OPEN STATE                     ,Yes
+297,31/Jan/2022 00:04:37,,STATUS PT.  U17     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN THE OPEN STATE                     ,Yes
+298,31/Jan/2022 00:04:39,31/Jan/2022 00:07:18,STATUS PT.  U17     GERADOR UN COMANDO DE APLICA,IS PLACED IN CLOSED STATE                       ,Yes
+299,31/Jan/2022 00:04:39,31/Jan/2022 00:05:08,STATUS PT.  U17     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+300,31/Jan/2022 00:04:41,31/Jan/2022 00:07:51,STATUS PT.  U17     GERADOR FREIOS DESAPLICADOS ,IS PLACED IN THE OPEN STATE                     ,Yes
+301,31/Jan/2022 00:04:45,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     18.0000                           ,Yes
+302,31/Jan/2022 00:04:48,31/Jan/2022 00:07:44,STATUS PT.  U17     GERADOR FREIOS APLICADOS    ,IS PLACED IN CLOSED STATE                       ,Yes
+303,31/Jan/2022 00:05:18,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO     12.0000                           ,Yes
+304,31/Jan/2022 00:05:48,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO      5.0000                           ,Yes
+305,31/Jan/2022 00:06:18,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO      3.0000                           ,Yes
+306,31/Jan/2022 00:06:48,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO      2.0000                           ,Yes
+307,31/Jan/2022 00:07:01,,STATUS PT.  U17     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+308,31/Jan/2022 00:07:01,,ANALOG PT.  U17     REG_VELOC VELOCIDADE DA UNID,IS SET TO      0.0000                           ,Yes
+309,31/Jan/2022 00:07:07,,STATUS PT.  U17     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+310,31/Jan/2022 00:07:08,,STATUS PT.  U17     GERADOR RES AQUEC BASE INFER,IS PLACED IN CLOSED STATE                       ,Yes
+311,31/Jan/2022 00:07:08,,STATUS PT.  U17     GERADOR RESIST AQUEC REC GER,IS PLACED IN CLOSED STATE                       ,Yes
+312,31/Jan/2022 00:07:08,,STATUS PT.  U17     GERADOR RESIST AQUEC RECINTO,IS PLACED IN CLOSED STATE                       ,Yes
+313,31/Jan/2022 00:07:09,,STATUS PT.  SF6_60  VAO_U17 SEC 96U17 A-52      ,IS PLACED IN THE OPEN STATE                     ,Yes
+314,31/Jan/2022 00:07:09,,STATUS PT.  U17     REG_VELOC BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+315,31/Jan/2022 00:07:09,,STATUS PT.  U17     REG_VELOC BOMBA 2           ,IS PLACED IN THE OPEN STATE                     ,Yes
+316,31/Jan/2022 00:07:09,,STATUS PT.  U17     REG_VELOC BOMBA 3           ,IS PLACED IN THE OPEN STATE                     ,Yes
+317,31/Jan/2022 00:07:09,,STATUS PT.  U17     REG_VELOC VALV ISOLADORA 20Q,IS PLACED IN THE OPEN STATE                     ,Yes
+318,31/Jan/2022 00:07:19,,STATUS PT.  U17     EXCITACAO SISTEMA RESFRIAMEN,IS PLACED IN THE OPEN STATE                     ,Yes
+319,31/Jan/2022 00:07:27,,STATUS PT.  U17     AGUA_PURA AGUA PURA PRONTA P,IS PLACED IN CLOSED STATE                       ,Yes
+320,31/Jan/2022 00:07:27,,STATUS PT.  U17     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+321,31/Jan/2022 00:07:28,,STATUS PT.  U17     SUPERV/CONTR UN PRONTA PARA ,IS PLACED IN CLOSED STATE                       ,Yes
+322,31/Jan/2022 00:07:51,,STATUS PT.  U17     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+323,31/Jan/2022 00:07:51,,STATUS PT.  U17     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+324,31/Jan/2022 00:07:52,,**COMENT**                                      ,                                                ,No
+325,31/Jan/2022 00:07:52,,**COMENT**                                      ,                                                ,No
+326,31/Jan/2022 00:07:52,,**RELE 95V/HZ RAP 09/2018 - FIM**               ,                                                ,No
+327,31/Jan/2022 00:07:52,,**COMENT**                                      ,                                                ,No
+328,31/Jan/2022 00:07:52,,**COMENT**                                      ,                                                ,No
+329,31/Jan/2022 00:07:52,,**COMENT**                                      ,                                                ,No
+330,31/Jan/2022 00:07:52,,**SEQUENCIA DE PARADA U17 - FIM**               ,                                                ,No
+331,01/Feb/2022 00:10:00,,CONDICOES INICIAIS U12 PARAD                    ,                                                ,No
+332,01/Feb/2022 00:20:00,,STATUS PT.  SF6_60  VAO_U12 SEC 96U12 A-36      ,IS PLACED IN THE OPEN STATE                     ,Yes
+333,01/Feb/2022 00:20:00,,STATUS PT.  U12     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN THE OPEN STATE                     ,Yes
+334,01/Feb/2022 00:20:00,,STATUS PT.  U12     AGUA_PURA AGUA PURA PRONTA P,IS PLACED IN CLOSED STATE                       ,Yes
+335,01/Feb/2022 00:20:00,01/Feb/2022 00:20:02,STATUS PT.  U12     AGUA_PURA BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+336,01/Feb/2022 00:20:00,01/Feb/2022 00:20:02,STATUS PT.  U12     AGUA_PURA BOMBA 1 TENSAO 120,IS PLACED IN CLOSED STATE                       ,Yes
+337,01/Feb/2022 00:20:00,,STATUS PT.  U12     AGUA_PURA LIBERACAO PARA EXC,IS PLACED IN THE OPEN STATE                     ,Yes
+338,01/Feb/2022 00:20:00,,STATUS PT.  U12     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+339,01/Feb/2022 00:20:00,,STATUS PT.  U12     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+340,01/Feb/2022 00:20:00,,STATUS PT.  U12     AUX_UNIDADE DISJ 52-1 UMCC-1,IS PLACED IN THE OPEN STATE                     ,Yes
+341,01/Feb/2022 00:20:00,,STATUS PT.  U12     AUX_UNIDADE DISJ 52-2 UMCC-1,IS PLACED IN CLOSED STATE                       ,Yes
+342,01/Feb/2022 00:20:00,01/Feb/2022 00:20:02,STATUS PT.  U12     AUX_UNIDADE VENTILADOR 1 ANE,IS PLACED IN THE OPEN STATE                     ,Yes
+343,01/Feb/2022 00:20:00,,STATUS PT.  U12     EXCITACAO EXCITACAO CONECTAD,IS PLACED IN THE OPEN STATE                     ,Yes
+344,01/Feb/2022 00:20:00,,STATUS PT.  U12     EXCITACAO PRONTO PARA OPERAC,IS PLACED IN CLOSED STATE                       ,Yes
+345,01/Feb/2022 00:20:00,,STATUS PT.  U12     EXCITACAO REG TENS AUTO/MAN ,IS PLACED IN CLOSED STATE                       ,Yes
+346,01/Feb/2022 00:20:00,,STATUS PT.  U12     EXCITACAO SISTEMA RESFRIAMEN,IS PLACED IN THE OPEN STATE                     ,Yes
+347,01/Feb/2022 00:20:00,01/Feb/2022 00:20:02,STATUS PT.  U12     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN THE OPEN STATE                     ,Yes
+348,01/Feb/2022 00:20:00,01/Feb/2022 00:27:52,STATUS PT.  U12     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN CLOSED STATE                       ,Yes
+349,01/Feb/2022 00:20:00,01/Feb/2022 00:27:46,STATUS PT.  U12     GERADOR BOMBA MANC ESC OLEO ,IS PLACED IN CLOSED STATE                       ,Yes
+350,01/Feb/2022 00:20:00,,STATUS PT.  U12     GERADOR RES AQUEC BASE INFER,IS PLACED IN CLOSED STATE                       ,Yes
+351,01/Feb/2022 00:20:00,,STATUS PT.  U12     GERADOR RESIST AQUEC REC GER,IS PLACED IN CLOSED STATE                       ,Yes
+352,01/Feb/2022 00:20:00,,STATUS PT.  U12     GERADOR RESIST AQUEC RECINTO,IS PLACED IN CLOSED STATE                       ,Yes
+353,01/Feb/2022 00:20:00,01/Feb/2022 00:22:39,STATUS PT.  U12     GERADOR UN COMANDO DE APLICA,IS PLACED IN CLOSED STATE                       ,Yes
+354,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+355,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC BOMBA 2           ,IS PLACED IN THE OPEN STATE                     ,Yes
+356,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC BOMBA 3           ,IS PLACED IN THE OPEN STATE                     ,Yes
+357,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC DISTRIBUIDOR FECHA,IS PLACED IN CLOSED STATE                       ,Yes
+358,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC REALIMENTACAO     ,IS PLACED IN THE OPEN STATE                     ,Yes
+359,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC TRAVA HIDRAULICA D,IS PLACED IN THE OPEN STATE                     ,Yes
+360,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC VALV ISOLADORA 20Q,IS PLACED IN THE OPEN STATE                     ,Yes
+361,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC VALV SOLENOIDE BA ,IS PLACED IN THE OPEN STATE                     ,Yes
+362,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC VALV SOLENOIDE BB ,IS PLACED IN THE OPEN STATE                     ,Yes
+363,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+364,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+365,01/Feb/2022 00:20:00,01/Feb/2022 00:20:29,STATUS PT.  U12     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+366,01/Feb/2022 00:20:00,,STATUS PT.  U12     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+367,01/Feb/2022 00:20:00,,STATUS PT.  U12     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+368,01/Feb/2022 00:20:00,,STATUS PT.  U12     SUPERV/CONTR CARG/FREQ AJUST,IS PLACED IN CLOSED STATE                       ,Yes
+369,01/Feb/2022 00:20:00,,STATUS PT.  U12     SUPERV/CONTR UN PREPARACAO D,IS PLACED IN THE OPEN STATE                     ,Yes
+370,01/Feb/2022 00:20:00,,STATUS PT.  U12     SUPERV/CONTR UN PRONTA PARA ,IS PLACED IN CLOSED STATE                       ,Yes
+371,01/Feb/2022 00:20:00,,STATUS PT.  U12     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+372,01/Feb/2022 00:20:00,01/Feb/2022 00:20:02,STATUS PT.  U12     TU KT-12 TENSAO CA 460VCA   ,IS PLACED IN CLOSED STATE                       ,Yes
+373,01/Feb/2022 00:20:00,01/Feb/2022 00:20:02,STATUS PT.  U12     TU KT-12 TENSAO CA COMANDO F,IS PLACED IN CLOSED STATE                       ,Yes
+374,01/Feb/2022 00:20:00,01/Feb/2022 00:20:02,STATUS PT.  U12     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+375,01/Feb/2022 00:20:00,,STATUS PT.  U12     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+376,01/Feb/2022 00:20:00,,STATUS PT.  U12     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN THE OPEN STATE                     ,Yes
+377,01/Feb/2022 00:20:00,01/Feb/2022 00:20:02,STATUS PT.  U12     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN CLOSED STATE                       ,Yes
+378,01/Feb/2022 00:20:00,,STATUS PT.  U12     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN THE OPEN STATE                     ,Yes
+379,01/Feb/2022 00:20:00,01/Feb/2022 00:20:02,STATUS PT.  U12     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN CLOSED STATE                       ,Yes
+380,01/Feb/2022 00:20:00,,ANALOG PT.  U12     GERADOR FREQUENCIA          ,IS SET TO OVERRIDE VALUE     46.0000            ,Yes
+381,01/Feb/2022 00:20:00,,ANALOG PT.  U12     EXCITACAO POTENCIOMETRO AUTO,IS SET TO      0.0000                           ,Yes
+382,01/Feb/2022 00:20:00,,ANALOG PT.  U12     EXCITACAO POTENCIOMETRO MANU,IS SET TO      0.0000                           ,Yes
+383,01/Feb/2022 00:20:00,,ANALOG PT.  U12     GERADOR CORRENTE            ,IS SET TO      0.0000                           ,Yes
+384,01/Feb/2022 00:20:00,,ANALOG PT.  U12     GERADOR TENSAO RDV          ,IS SET TO OVERRIDE VALUE      0.0000            ,Yes
+385,01/Feb/2022 00:20:00,,ANALOG PT.  U12     REG_VELOC DISTRIBUIDOR POSIC,IS SET TO      0.0000                           ,Yes
+386,01/Feb/2022 00:20:02,,* RESET PARA A PREPARACAO DE PARTIDA E PARTIDA *,                                                ,No
+387,01/Feb/2022 00:20:02,,STATUS PT.  SF6_60  VAO_U13 SEC 96U13 A-38      ,IS PLACED IN THE OPEN STATE                     ,Yes
+388,01/Feb/2022 00:20:02,,STATUS PT.  U13     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN THE OPEN STATE                     ,Yes
+389,01/Feb/2022 00:20:02,,STATUS PT.  U13     AGUA_PURA AGUA PURA PRONTA P,IS PLACED IN CLOSED STATE                       ,Yes
+390,01/Feb/2022 00:20:02,01/Feb/2022 00:20:04,STATUS PT.  U13     AGUA_PURA BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+391,01/Feb/2022 00:20:02,,STATUS PT.  U13     AGUA_PURA BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+392,01/Feb/2022 00:20:02,01/Feb/2022 00:20:04,STATUS PT.  U13     AGUA_PURA BOMBA 1 TENSAO 120,IS PLACED IN CLOSED STATE                       ,Yes
+393,01/Feb/2022 00:20:02,,STATUS PT.  U13     AGUA_PURA LIBERACAO PARA EXC,IS PLACED IN THE OPEN STATE                     ,Yes
+394,01/Feb/2022 00:20:02,,STATUS PT.  U13     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+395,01/Feb/2022 00:20:02,,STATUS PT.  U13     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+396,01/Feb/2022 00:20:02,,STATUS PT.  U13     AUX_UNIDADE DISJ 52-1 UMCC-1,IS PLACED IN THE OPEN STATE                     ,Yes
+397,01/Feb/2022 00:20:02,,STATUS PT.  U13     AUX_UNIDADE DISJ 52-2 UMCC-1,IS PLACED IN CLOSED STATE                       ,Yes
+398,01/Feb/2022 00:20:02,01/Feb/2022 00:20:04,STATUS PT.  U13     AUX_UNIDADE VENTILADOR 1 ANE,IS PLACED IN THE OPEN STATE                     ,Yes
+399,01/Feb/2022 00:20:02,,STATUS PT.  U13     EXCITACAO EXCITACAO CONECTAD,IS PLACED IN THE OPEN STATE                     ,Yes
+400,01/Feb/2022 00:20:02,,STATUS PT.  U13     EXCITACAO PRONTO PARA OPERAC,IS PLACED IN CLOSED STATE                       ,Yes
+401,01/Feb/2022 00:20:02,,STATUS PT.  U13     EXCITACAO REG TENS AUTO/MAN ,IS PLACED IN CLOSED STATE                       ,Yes
+402,01/Feb/2022 00:20:02,,STATUS PT.  U13     EXCITACAO SISTEMA RESFRIAMEN,IS PLACED IN THE OPEN STATE                     ,Yes
+403,01/Feb/2022 00:20:02,,STATUS PT.  U13     EXCITACAO SISTEMA RESFRIAMEN,IS PLACED IN THE OPEN STATE                     ,Yes
+404,01/Feb/2022 00:20:02,01/Feb/2022 00:20:04,STATUS PT.  U13     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN THE OPEN STATE                     ,Yes
+405,01/Feb/2022 00:20:02,01/Feb/2022 00:27:54,STATUS PT.  U13     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN CLOSED STATE                       ,Yes
+406,01/Feb/2022 00:20:02,01/Feb/2022 00:27:48,STATUS PT.  U13     GERADOR BOMBA MANC ESC OLEO ,IS PLACED IN CLOSED STATE                       ,Yes
+407,01/Feb/2022 00:20:02,,STATUS PT.  U13     GERADOR FREIOS APLICADOS    ,IS PLACED IN THE OPEN STATE                     ,Yes
+408,01/Feb/2022 00:20:02,01/Feb/2022 00:23:12,STATUS PT.  U13     GERADOR FREIOS DESAPLICADOS ,IS PLACED IN THE OPEN STATE                     ,Yes
+409,01/Feb/2022 00:20:02,,STATUS PT.  U13     GERADOR RES AQUEC BASE INFER,IS PLACED IN CLOSED STATE                       ,Yes
+410,01/Feb/2022 00:20:02,,STATUS PT.  U13     GERADOR RESIST AQUEC REC GER,IS PLACED IN CLOSED STATE                       ,Yes
+411,01/Feb/2022 00:20:02,,STATUS PT.  U13     GERADOR RESIST AQUEC RECINTO,IS PLACED IN CLOSED STATE                       ,Yes
+412,01/Feb/2022 00:20:02,01/Feb/2022 00:22:41,STATUS PT.  U13     GERADOR UN COMANDO DE APLICA,IS PLACED IN CLOSED STATE                       ,Yes
+413,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+414,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+415,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC BOMBA 2           ,IS PLACED IN THE OPEN STATE                     ,Yes
+416,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC BOMBA 3           ,IS PLACED IN THE OPEN STATE                     ,Yes
+417,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC DISTRIBUIDOR FECHA,IS PLACED IN CLOSED STATE                       ,Yes
+418,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC REALIMENTACAO     ,IS PLACED IN THE OPEN STATE                     ,Yes
+419,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC TRAVA HIDRAULICA D,IS PLACED IN THE OPEN STATE                     ,Yes
+420,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC VALV ISOLADORA 20Q,IS PLACED IN THE OPEN STATE                     ,Yes
+421,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC VALV ISOLADORA 20Q,IS PLACED IN THE OPEN STATE                     ,Yes
+422,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC VALV SOLENOIDE BA ,IS PLACED IN THE OPEN STATE                     ,Yes
+423,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC VALV SOLENOIDE BB ,IS PLACED IN THE OPEN STATE                     ,Yes
+424,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+425,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+426,01/Feb/2022 00:20:02,01/Feb/2022 00:20:31,STATUS PT.  U13     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+427,01/Feb/2022 00:20:02,,STATUS PT.  U13     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+428,01/Feb/2022 00:20:02,,STATUS PT.  U13     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+429,01/Feb/2022 00:20:02,,STATUS PT.  U13     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+430,01/Feb/2022 00:20:02,,STATUS PT.  U13     SUPERV/CONTR CARG/FREQ AJUST,IS PLACED IN CLOSED STATE                       ,Yes
+431,01/Feb/2022 00:20:02,01/Feb/2022 00:20:11,STATUS PT.  U13     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+432,01/Feb/2022 00:20:02,,STATUS PT.  U13     SUPERV/CONTR UN PREPARACAO D,IS PLACED IN THE OPEN STATE                     ,Yes
+433,01/Feb/2022 00:20:02,,STATUS PT.  U13     SUPERV/CONTR UN PREPARACAO D,IS PLACED IN THE OPEN STATE                     ,Yes
+434,01/Feb/2022 00:20:02,,STATUS PT.  U13     SUPERV/CONTR UN PRONTA PARA ,IS PLACED IN CLOSED STATE                       ,Yes
+435,01/Feb/2022 00:20:02,,STATUS PT.  U13     SUPERV/CONTR UN PRONTA PARA ,IS PLACED IN CLOSED STATE                       ,Yes
+436,01/Feb/2022 00:20:02,,STATUS PT.  U13     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+437,01/Feb/2022 00:20:02,01/Feb/2022 00:20:04,STATUS PT.  U13     TU KT-13 TENSAO CA 460VCA   ,IS PLACED IN CLOSED STATE                       ,Yes
+438,01/Feb/2022 00:20:02,01/Feb/2022 00:20:04,STATUS PT.  U13     TU KT-13 TENSAO CA COMANDO F,IS PLACED IN CLOSED STATE                       ,Yes
+439,01/Feb/2022 00:20:02,,STATUS PT.  U13     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+440,01/Feb/2022 00:20:02,01/Feb/2022 00:20:04,STATUS PT.  U13     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+441,01/Feb/2022 00:20:02,,STATUS PT.  U13     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+442,01/Feb/2022 00:20:02,,STATUS PT.  U13     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN THE OPEN STATE                     ,Yes
+443,01/Feb/2022 00:20:02,01/Feb/2022 00:20:04,STATUS PT.  U13     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN CLOSED STATE                       ,Yes
+444,01/Feb/2022 00:20:02,,STATUS PT.  U13     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN THE OPEN STATE                     ,Yes
+445,01/Feb/2022 00:20:02,01/Feb/2022 00:20:04,STATUS PT.  U13     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN CLOSED STATE                       ,Yes
+446,01/Feb/2022 00:20:02,,ANALOG PT.  U13     EXCITACAO POTENCIOMETRO AUTO,IS SET TO      0.0000                           ,Yes
+447,01/Feb/2022 00:20:02,,ANALOG PT.  U13     EXCITACAO POTENCIOMETRO MANU,IS SET TO      0.0000                           ,Yes
+448,01/Feb/2022 00:20:02,,ANALOG PT.  U13     GERADOR CORRENTE            ,IS SET TO      0.0000                           ,Yes
+449,01/Feb/2022 00:20:02,,ANALOG PT.  U13     GERADOR TENSAO RDV          ,IS SET TO OVERRIDE VALUE      0.0000            ,Yes
+450,01/Feb/2022 00:20:02,,ANALOG PT.  U13     REG_VELOC DISTRIBUIDOR POSIC,IS SET TO      0.0000                           ,Yes
+451,01/Feb/2022 00:20:02,,ANALOG PT.  U13     REG_VELOC VELOCIDADE DA UNID,IS SET TO      0.0000                           ,Yes
+452,02/Feb/2022 00:10:00,,PARADA U09                                      ,                                                ,No
+453,02/Feb/2022 00:10:00,,PARADA U16                                      ,                                                ,No
+454,02/Feb/2022 00:10:00,,STATUS PT.  SF6_50  VANO_U09 SEC 95U09 A-25     ,IS PLACED IN THE OPEN STATE                     ,Yes
+455,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN THE OPEN STATE                     ,Yes
+456,02/Feb/2022 00:10:00,,STATUS PT.  U9A     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN THE OPEN STATE                     ,Yes
+457,02/Feb/2022 00:10:00,,STATUS PT.  U9A     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN CLOSED STATE                       ,Yes
+458,02/Feb/2022 00:10:00,,STATUS PT.  SF6_60  VAO_U16 SEC 96U16 A-50      ,IS PLACED IN THE OPEN STATE                     ,Yes
+459,02/Feb/2022 00:10:00,,STATUS PT.  U16     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN THE OPEN STATE                     ,Yes
+460,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN THE OPEN STATE                     ,Yes
+461,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN SINCRONIZADA,IS PLACED IN THE OPEN STATE                     ,Yes
+462,02/Feb/2022 00:10:00,,STATUS PT.  SF6_50  VANO_U9A INT 85U9A A-27     ,IS PLACED IN THE OPEN STATE                     ,Yes
+463,02/Feb/2022 00:10:00,02/Feb/2022 00:19:04,STATUS PT.  SF6_60  VAO_U16 DISJ 06U16 PROTECAO ,IS PLACED IN CLOSED STATE                       ,Yes
+464,02/Feb/2022 00:10:00,02/Feb/2022 00:19:04,STATUS PT.  SF6_60  VAO_U16/17 DISJ 46U67 PROTEC,IS PLACED IN CLOSED STATE                       ,Yes
+465,02/Feb/2022 00:10:00,,STATUS PT.  U09     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+466,02/Feb/2022 00:10:00,,STATUS PT.  U09     AUX_UNIDAD INT 52-1 UMCC-09 ,IS PLACED IN THE OPEN STATE                     ,Yes
+467,02/Feb/2022 00:10:00,,STATUS PT.  U09     AUX_UNIDAD INT 52-2 UMCC-09 ,IS PLACED IN CLOSED STATE                       ,Yes
+468,02/Feb/2022 00:10:00,,STATUS PT.  U09     EXCITACION EXCITACION CONECT,IS PLACED IN THE OPEN STATE                     ,Yes
+469,02/Feb/2022 00:10:00,,STATUS PT.  U09     EXCITACION REG TENS AUTO/MAN,IS PLACED IN CLOSED STATE                       ,Yes
+470,02/Feb/2022 00:10:00,,STATUS PT.  U09     EXCITACION SISTEMA ENFRIAMIE,IS PLACED IN THE OPEN STATE                     ,Yes
+471,02/Feb/2022 00:10:00,,STATUS PT.  U09     GENERADOR BOMBA COJ EMP ACEI,IS PLACED IN THE OPEN STATE                     ,Yes
+472,02/Feb/2022 00:10:00,,STATUS PT.  U09     GENERADOR BOMBA COJ EMP ACEI,IS PLACED IN CLOSED STATE                       ,Yes
+473,02/Feb/2022 00:10:00,,STATUS PT.  U09     GENERADOR FRENOS APLICADOS  ,IS PLACED IN THE OPEN STATE                     ,Yes
+474,02/Feb/2022 00:10:00,,STATUS PT.  U09     GENERADOR FRENOS DESAPLICADO,IS PLACED IN CLOSED STATE                       ,Yes
+475,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC BOMBA 2           ,IS PLACED IN THE OPEN STATE                     ,Yes
+476,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC BOMBA 3           ,IS PLACED IN THE OPEN STATE                     ,Yes
+477,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC DISTRIBUIDOR CERRA,IS PLACED IN CLOSED STATE                       ,Yes
+478,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC TRABA HIDRAULICA D,IS PLACED IN THE OPEN STATE                     ,Yes
+479,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC VALV AISLADORA 20Q,IS PLACED IN THE OPEN STATE                     ,Yes
+480,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC VALV SOLENOIDE BA ,IS PLACED IN THE OPEN STATE                     ,Yes
+481,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC VALV SOLENOIDE BB ,IS PLACED IN THE OPEN STATE                     ,Yes
+482,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC VELOC UNID MAYOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+483,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC VELOC UNID MAYOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+484,02/Feb/2022 00:10:00,,STATUS PT.  U09     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+485,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+486,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR CARG/FREC AJUST,IS PLACED IN CLOSED STATE                       ,Yes
+487,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR TIEMPO TOTAL PA,IS PLACED IN THE OPEN STATE                     ,Yes
+488,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN THE OPEN STATE                     ,Yes
+489,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+490,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR UN INICIO DE MO,IS PLACED IN THE OPEN STATE                     ,Yes
+491,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR UN LISTO PARA O,IS PLACED IN CLOSED STATE                       ,Yes
+492,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR UN PREPARACION ,IS PLACED IN THE OPEN STATE                     ,Yes
+493,02/Feb/2022 00:10:00,,STATUS PT.  U09     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+494,02/Feb/2022 00:10:00,,STATUS PT.  U09     TU CAMBIADOR CALOR PRINC AGU,IS PLACED IN THE OPEN STATE                     ,Yes
+495,02/Feb/2022 00:10:00,,STATUS PT.  U09     TU CAMBIADOR CALOR PRINC AGU,IS PLACED IN THE OPEN STATE                     ,Yes
+496,02/Feb/2022 00:10:00,,STATUS PT.  U16     AGUA_PURA AGUA PURA PRONTA P,IS PLACED IN CLOSED STATE                       ,Yes
+497,02/Feb/2022 00:10:00,02/Feb/2022 00:10:02,STATUS PT.  U16     AGUA_PURA BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+498,02/Feb/2022 00:10:00,02/Feb/2022 00:10:02,STATUS PT.  U16     AGUA_PURA BOMBA 1 TENSAO 120,IS PLACED IN CLOSED STATE                       ,Yes
+499,02/Feb/2022 00:10:00,,STATUS PT.  U16     AGUA_PURA LIBERACAO PARA EXC,IS PLACED IN THE OPEN STATE                     ,Yes
+500,02/Feb/2022 00:10:00,,STATUS PT.  U16     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+501,02/Feb/2022 00:10:00,,STATUS PT.  U16     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+502,02/Feb/2022 00:10:00,,STATUS PT.  U16     AUX_UNIDADE DISJ 52-1 UMCC-1,IS PLACED IN THE OPEN STATE                     ,Yes
+503,02/Feb/2022 00:10:00,,STATUS PT.  U16     AUX_UNIDADE DISJ 52-2 UMCC-1,IS PLACED IN CLOSED STATE                       ,Yes
+504,02/Feb/2022 00:10:00,02/Feb/2022 00:10:02,STATUS PT.  U16     AUX_UNIDADE VENTILADOR 1 ANE,IS PLACED IN THE OPEN STATE                     ,Yes
+505,02/Feb/2022 00:10:00,,STATUS PT.  U16     EXCITACAO EXCITACAO CONECTAD,IS PLACED IN THE OPEN STATE                     ,Yes
+506,02/Feb/2022 00:10:00,,STATUS PT.  U16     EXCITACAO PRONTO PARA OPERAC,IS PLACED IN CLOSED STATE                       ,Yes
+507,02/Feb/2022 00:10:00,,STATUS PT.  U16     EXCITACAO REG TENS AUTO/MAN ,IS PLACED IN CLOSED STATE                       ,Yes
+508,02/Feb/2022 00:10:00,,STATUS PT.  U16     EXCITACAO SISTEMA RESFRIAMEN,IS PLACED IN THE OPEN STATE                     ,Yes
+509,02/Feb/2022 00:10:00,02/Feb/2022 00:10:02,STATUS PT.  U16     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN THE OPEN STATE                     ,Yes
+510,02/Feb/2022 00:10:00,02/Feb/2022 00:17:52,STATUS PT.  U16     GERADOR BOMBA 1 MANC ESC    ,IS PLACED IN CLOSED STATE                       ,Yes
+511,02/Feb/2022 00:10:00,02/Feb/2022 00:17:46,STATUS PT.  U16     GERADOR BOMBA MANC ESC OLEO ,IS PLACED IN CLOSED STATE                       ,Yes
+512,02/Feb/2022 00:10:00,,STATUS PT.  U16     GERADOR RES AQUEC BASE INFER,IS PLACED IN CLOSED STATE                       ,Yes
+513,02/Feb/2022 00:10:00,,STATUS PT.  U16     GERADOR RESIST AQUEC REC GER,IS PLACED IN CLOSED STATE                       ,Yes
+514,02/Feb/2022 00:10:00,,STATUS PT.  U16     GERADOR RESIST AQUEC RECINTO,IS PLACED IN CLOSED STATE                       ,Yes
+515,02/Feb/2022 00:10:00,02/Feb/2022 00:12:39,STATUS PT.  U16     GERADOR UN COMANDO DE APLICA,IS PLACED IN CLOSED STATE                       ,Yes
+516,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC BOMBA 1           ,IS PLACED IN THE OPEN STATE                     ,Yes
+517,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC BOMBA 2           ,IS PLACED IN THE OPEN STATE                     ,Yes
+518,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC BOMBA 3           ,IS PLACED IN THE OPEN STATE                     ,Yes
+519,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC DISTRIBUIDOR FECHA,IS PLACED IN CLOSED STATE                       ,Yes
+520,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC REALIMENTACAO     ,IS PLACED IN THE OPEN STATE                     ,Yes
+521,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC TRAVA HIDRAULICA D,IS PLACED IN THE OPEN STATE                     ,Yes
+522,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC VALV ISOLADORA 20Q,IS PLACED IN THE OPEN STATE                     ,Yes
+523,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC VALV SOLENOIDE BA ,IS PLACED IN THE OPEN STATE                     ,Yes
+524,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC VALV SOLENOIDE BB ,IS PLACED IN THE OPEN STATE                     ,Yes
+525,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+526,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC VELOC UNID MAIOR/I,IS PLACED IN THE OPEN STATE                     ,Yes
+527,02/Feb/2022 00:10:00,02/Feb/2022 00:10:29,STATUS PT.  U16     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+528,02/Feb/2022 00:10:00,,STATUS PT.  U16     REG_VELOC VELOC UNID MENOR/I,IS PLACED IN CLOSED STATE                       ,Yes
+529,02/Feb/2022 00:10:00,,STATUS PT.  U16     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+530,02/Feb/2022 00:10:00,,STATUS PT.  U16     SUPERV/CONTR CARG/FREQ AJUST,IS PLACED IN CLOSED STATE                       ,Yes
+531,02/Feb/2022 00:10:00,,STATUS PT.  U16     SUPERV/CONTR UN PREPARACAO D,IS PLACED IN THE OPEN STATE                     ,Yes
+532,02/Feb/2022 00:10:00,,STATUS PT.  U16     SUPERV/CONTR UN PRONTA PARA ,IS PLACED IN CLOSED STATE                       ,Yes
+533,02/Feb/2022 00:10:00,,STATUS PT.  U16     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+534,02/Feb/2022 00:10:00,02/Feb/2022 00:10:02,STATUS PT.  U16     TU KT-16 TENSAO CA 460VCA   ,IS PLACED IN CLOSED STATE                       ,Yes
+535,02/Feb/2022 00:10:00,02/Feb/2022 00:10:02,STATUS PT.  U16     TU KT-16 TENSAO CA COMANDO F,IS PLACED IN CLOSED STATE                       ,Yes
+536,02/Feb/2022 00:10:00,,STATUS PT.  U16     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+537,02/Feb/2022 00:10:00,02/Feb/2022 00:10:02,STATUS PT.  U16     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+538,02/Feb/2022 00:10:00,,STATUS PT.  U16     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN THE OPEN STATE                     ,Yes
+539,02/Feb/2022 00:10:00,02/Feb/2022 00:10:02,STATUS PT.  U16     TURBINA VALVULA BORBOLETA 1 ,IS PLACED IN CLOSED STATE                       ,Yes
+540,02/Feb/2022 00:10:00,,STATUS PT.  U16     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN THE OPEN STATE                     ,Yes
+541,02/Feb/2022 00:10:00,02/Feb/2022 00:10:02,STATUS PT.  U16     TURBINA VALVULA BORBOLETA 2 ,IS PLACED IN CLOSED STATE                       ,Yes
+542,02/Feb/2022 00:10:00,,STATUS PT.  U17     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+543,02/Feb/2022 00:10:00,,STATUS PT.  U17     AGUA_PURA VALV AGUA BRUTA   ,IS PLACED IN THE OPEN STATE                     ,Yes
+544,02/Feb/2022 00:10:00,,STATUS PT.  U17     AUX_UNIDADE DISJ 52-2 UMCC-1,IS PLACED IN CLOSED STATE                       ,Yes
+545,02/Feb/2022 00:10:00,,STATUS PT.  U17     AUX_UNIDADE DISJ 52-2 UMCC-1,IS PLACED IN CLOSED STATE                       ,Yes
+546,02/Feb/2022 00:10:00,,STATUS PT.  U17     EXCITACAO EXCITACAO CONECTAD,IS PLACED IN THE OPEN STATE                     ,Yes
+547,02/Feb/2022 00:10:00,,STATUS PT.  U17     EXCITACAO REG TENS AUTO/MAN ,IS PLACED IN CLOSED STATE                       ,Yes
+548,02/Feb/2022 00:10:00,,STATUS PT.  U17     EXCITACAO REG TENS AUTO/MAN ,IS PLACED IN CLOSED STATE                       ,Yes
+549,02/Feb/2022 00:10:00,,STATUS PT.  U17     EXCITACAO SISTEMA RESFRIAMEN,IS PLACED IN THE OPEN STATE                     ,Yes
+550,02/Feb/2022 00:10:00,,STATUS PT.  U17     EXCITACAO SISTEMA RESFRIAMEN,IS PLACED IN THE OPEN STATE                     ,Yes
+551,02/Feb/2022 00:10:00,,STATUS PT.  U17     REG_VELOC BOMBA 2           ,IS PLACED IN THE OPEN STATE                     ,Yes
+552,02/Feb/2022 00:10:00,,STATUS PT.  U17     REG_VELOC BOMBA 2           ,IS PLACED IN THE OPEN STATE                     ,Yes
+553,02/Feb/2022 00:10:00,,STATUS PT.  U17     REG_VELOC BOMBA 3           ,IS PLACED IN THE OPEN STATE                     ,Yes
+554,02/Feb/2022 00:10:00,,STATUS PT.  U17     REG_VELOC BOMBA 3           ,IS PLACED IN THE OPEN STATE                     ,Yes
+555,02/Feb/2022 00:10:00,,STATUS PT.  U17     REG_VELOC DISTRIBUIDOR FECHA,IS PLACED IN CLOSED STATE                       ,Yes
+556,02/Feb/2022 00:10:00,,STATUS PT.  U17     REG_VELOC VALV SOLENOIDE BA ,IS PLACED IN THE OPEN STATE                     ,Yes
+557,02/Feb/2022 00:10:00,,STATUS PT.  U17     REG_VELOC VALV SOLENOIDE BA ,IS PLACED IN THE OPEN STATE                     ,Yes
+558,02/Feb/2022 00:10:00,,STATUS PT.  U17     REG_VELOC VALV SOLENOIDE BB ,IS PLACED IN THE OPEN STATE                     ,Yes
+559,02/Feb/2022 00:10:00,,STATUS PT.  U17     REG_VELOC VALV SOLENOIDE BB ,IS PLACED IN THE OPEN STATE                     ,Yes
+560,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+561,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+562,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR CARG/FREQ AJUST,IS PLACED IN CLOSED STATE                       ,Yes
+563,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR CARG/FREQ AJUST,IS PLACED IN CLOSED STATE                       ,Yes
+564,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+565,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+566,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+567,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+568,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN PRONTA PARA ,IS PLACED IN CLOSED STATE                       ,Yes
+569,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN PRONTA PARA ,IS PLACED IN CLOSED STATE                       ,Yes
+570,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+571,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+572,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+573,02/Feb/2022 00:10:00,,STATUS PT.  U17     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+574,02/Feb/2022 00:10:00,,STATUS PT.  U17     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+575,02/Feb/2022 00:10:00,,STATUS PT.  U17     TU TROCADOR CALOR PRINC AGUA,IS PLACED IN THE OPEN STATE                     ,Yes
+576,02/Feb/2022 00:10:00,,STATUS PT.  U9A     AUX_UNIDAD INT 52-2 ABIERTO/,IS PLACED IN CLOSED STATE                       ,Yes
+577,02/Feb/2022 00:10:00,,STATUS PT.  U9A     EXCITACION EXCITACION CONECT,IS PLACED IN THE OPEN STATE                     ,Yes
+578,02/Feb/2022 00:10:00,,STATUS PT.  U9A     EXCITACION REG TENS AUTO/MAN,IS PLACED IN CLOSED STATE                       ,Yes
+579,02/Feb/2022 00:10:00,,STATUS PT.  U9A     REG_VELOC BOMBA 2           ,IS PLACED IN THE OPEN STATE                     ,Yes
+580,02/Feb/2022 00:10:00,,STATUS PT.  U9A     REG_VELOC BOMBA 3           ,IS PLACED IN THE OPEN STATE                     ,Yes
+581,02/Feb/2022 00:10:00,,STATUS PT.  U9A     REG_VELOC DISTRIBUIDOR CERRA,IS PLACED IN CLOSED STATE                       ,Yes
+582,02/Feb/2022 00:10:00,,STATUS PT.  U9A     REG_VELOC PRIN/RET AJUSTE CA,IS PLACED IN CLOSED STATE                       ,Yes
+583,02/Feb/2022 00:10:00,,STATUS PT.  U9A     REG_VELOC TRABA HIDRAULICA D,IS PLACED IN CLOSED STATE                       ,Yes
+584,02/Feb/2022 00:10:00,,STATUS PT.  U9A     REG_VELOC UNIDAD IGUAL 0% VN,IS PLACED IN CLOSED STATE                       ,Yes
+585,02/Feb/2022 00:10:00,,STATUS PT.  U9A     REG_VELOC VALV SOLENOIDE BA ,IS PLACED IN THE OPEN STATE                     ,Yes
+586,02/Feb/2022 00:10:00,,STATUS PT.  U9A     REG_VELOC VALV SOLENOIDE BB ,IS PLACED IN THE OPEN STATE                     ,Yes
+587,02/Feb/2022 00:10:00,,STATUS PT.  U9A     REG_VELOC VELOC UNIDAD MENOR,IS PLACED IN CLOSED STATE                       ,Yes
+588,02/Feb/2022 00:10:00,,STATUS PT.  U9A     SUPERV/CONTR AUXILIARES PARA,IS PLACED IN CLOSED STATE                       ,Yes
+589,02/Feb/2022 00:10:00,,STATUS PT.  U9A     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+590,02/Feb/2022 00:10:00,,STATUS PT.  U9A     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+591,02/Feb/2022 00:10:00,,STATUS PT.  U9A     SUPERV/CONTR UN COMANDO DE P,IS PLACED IN CLOSED STATE                       ,Yes
+592,02/Feb/2022 00:10:00,,STATUS PT.  U9A     SUPERV/CONTR UN LISTO PARA O,IS PLACED IN CLOSED STATE                       ,Yes
+593,02/Feb/2022 00:10:00,,STATUS PT.  U9A     SUPERV/CONTR UN TOTALMENTE P,IS PLACED IN CLOSED STATE                       ,Yes
+594,02/Feb/2022 00:10:00,,STATUS PT.  U9A     TU INTERCAMBIADORES PRINCIPA,IS PLACED IN THE OPEN STATE                     ,Yes
+595,02/Feb/2022 00:10:00,,ANALOG PT.  U09     GENERADOR FRECUENCIA        ,IS SET TO     46.0000                           ,Yes
+596,02/Feb/2022 00:10:00,,ANALOG PT.  U16     GERADOR FREQUENCIA          ,IS SET TO OVERRIDE VALUE     46.0000            ,Yes
+597,02/Feb/2022 00:10:00,,ANALOG PT.  U09     EXCITACION POTENCIOMETRO AUT,IS SET TO      0.0000                           ,Yes
+598,02/Feb/2022 00:10:00,,ANALOG PT.  U09     EXCITACION POTENCIOMETRO MAN,IS SET TO      0.0000                           ,Yes
+599,02/Feb/2022 00:10:00,,ANALOG PT.  U09     GENERADOR CORRIENTE         ,IS SET TO      0.0000                           ,Yes
+600,02/Feb/2022 00:10:00,,ANALOG PT.  U09     REG_VELOC AJUSTE DE CARGA/FR,IS SET TO      0.0000                           ,Yes
+601,02/Feb/2022 00:10:00,,ANALOG PT.  U09     REG_VELOC DISTRIBUIDOR POSIC,IS SET TO      0.0000                           ,Yes
+602,02/Feb/2022 00:10:00,,ANALOG PT.  U09     REG_VELOC VELOCIDAD DE LA UN,IS SET TO      0.0000                           ,Yes
+603,02/Feb/2022 00:10:00,,ANALOG PT.  U16     EXCITACAO POTENCIOMETRO AUTO,IS SET TO      0.0000                           ,Yes
+604,02/Feb/2022 00:10:00,,ANALOG PT.  U16     EXCITACAO POTENCIOMETRO MANU,IS SET TO      0.0000                           ,Yes
+605,02/Feb/2022 00:10:00,,ANALOG PT.  U16     GERADOR CORRENTE            ,IS SET TO      0.0000                           ,Yes
+606,02/Feb/2022 00:10:00,,ANALOG PT.  U16     GERADOR TENSAO RDV          ,IS SET TO OVERRIDE VALUE      0.0000            ,Yes
+607,02/Feb/2022 00:10:00,,ANALOG PT.  U16     REG_VELOC DISTRIBUIDOR POSIC,IS SET TO      0.0000                           ,Yes
+608,02/Feb/2022 00:10:00,,ANALOG PT.  U16     REG_VELOC VELOCIDADE DA UNID,IS SET TO      0.0000                           ,Yes
