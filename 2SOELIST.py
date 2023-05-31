@@ -6,6 +6,9 @@
 # Importa bibliotecas
 import pandas as pd
 import glob
+from openpyxl import load_workbook
+from openpyxl.styles import PatternFill
+from collections import Counter
 
 
 # Seta a pasta BD
@@ -144,42 +147,40 @@ del alarme, scratch
 # resultado.to_csv('SOELIST.csv')
 resultado.to_excel('SOELIST.xlsx')
 
-#%%
-
-
-
-
-
-
-from openpyxl import load_workbook
-from openpyxl import Workbook
-from openpyxl.styles import PatternFill
-
 # Ler o arquivo XLSX
 filename = 'SOELIST.xlsx'
 df = pd.read_excel(filename)
 
 # Criar o arquivo XLSX de saída
 output_filename = 'SOELIST_pintado.xlsx'
-
-# Carregar o DataFrame para o arquivo XLSX
 df.to_excel(output_filename, index=False, sheet_name='Sheet1')
 
 # Carregar o arquivo XLSX com openpyxl
 workbook = load_workbook(output_filename)
 worksheet = workbook['Sheet1']
 
-# Definir a cor vermelha
-red_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
+# Definir as cores de preenchimento
+orang_fill = PatternFill(start_color='FFA500', end_color='FFA500', fill_type='lightUp')
+green_fill = PatternFill(start_color='90EE90', end_color='90EE90', fill_type='solid')
+dark_green_fill = PatternFill(start_color='00B050', end_color='00B050', fill_type='solid')
+blue_fill = PatternFill(start_color='91BCE3', end_color='91BCE3', fill_type='solid')
 
-# Pintar as linhas de vermelho com base na condição na coluna "Event Flag"
-for row in worksheet.iter_rows(min_row=2, min_col=1, max_col=1, values_only=True):
-    if row[0] == -1:
-        for cell in worksheet.iter_rows(min_row=row[0], max_row=row[0]):
-            for c in cell:
-                c.fill = red_fill
+# Pintar as linhas de acordo com as condições
+event_flag_counter = Counter(df['Event Flag'])
+for row_idx, event_flag in enumerate(df['Event Flag'], start=2):
+    if event_flag == -1:
+        for cell in worksheet[row_idx]:
+            cell.fill = orang_fill
+    elif event_flag_counter[event_flag] > 1:
+        if event_flag % 2 == 0:
+            for cell in worksheet[row_idx]:
+                cell.fill = green_fill
+        else:
+            for cell in worksheet[row_idx]:
+                cell.fill = dark_green_fill
+    else:
+        for cell in worksheet[row_idx]:
+            cell.fill = blue_fill
 
 # Salvar o arquivo XLSX de saída
 workbook.save(output_filename)
-
-print(f"As linhas do arquivo '{filename}' foram pintadas de vermelho e salvas em '{output_filename}'.")
