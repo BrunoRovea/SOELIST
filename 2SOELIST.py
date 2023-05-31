@@ -142,42 +142,44 @@ del alarme, scratch
 
 # Escreve o arquivo csv com a SOELIST completa
 # resultado.to_csv('SOELIST.csv')
-resultado.to_excel('SOELIST.xlsx', index=False)
+resultado.to_excel('SOELIST.xlsx')
 
 #%%
 
-import pandas as pd
-import openpyxl
+
+
+
+
+
+from openpyxl import load_workbook
+from openpyxl import Workbook
 from openpyxl.styles import PatternFill
 
-def pintar_linhas_verdes(arquivo_xlsx):
-    # Carregar o arquivo XLSX com pandas
-    df = pd.read_excel(arquivo_xlsx, engine='xlrd'
+# Ler o arquivo XLSX
+filename = 'SOELIST.xlsx'
+df = pd.read_excel(filename)
 
-    # Criar um writer para salvar as modificações
-    writer = pd.ExcelWriter(arquivo_xlsx, engine='openpyxl', mode='a')
-    writer.book = openpyxl.load_workbook(arquivo_xlsx)
-    writer.sheets = {ws.title: ws for ws in writer.book.worksheets}
+# Criar o arquivo XLSX de saída
+output_filename = 'SOELIST_pintado.xlsx'
 
-    # Pintar as linhas especificadas de verde
-    for index, row in df.iterrows():
-        if row['Event Flag'] == -1:
-            # Obter o nome da planilha correspondente
-            sheet_name = row['Sheet1']
+# Carregar o DataFrame para o arquivo XLSX
+df.to_excel(output_filename, index=False, sheet_name='Sheet1')
 
-            # Obter a planilha correspondente
-            ws = writer.sheets[sheet_name]
+# Carregar o arquivo XLSX com openpyxl
+workbook = load_workbook(output_filename)
+worksheet = workbook['Sheet1']
 
-            # Definir a formatação de preenchimento verde
-            fill = PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid')
+# Definir a cor vermelha
+red_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
 
-            # Pintar a linha de verde
-            for col in ws.iter_cols(min_row=index + 2, max_row=index + 2):
-                for cell in col:
-                    cell.fill = fill
+# Pintar as linhas de vermelho com base na condição na coluna "Event Flag"
+for row in worksheet.iter_rows(min_row=2, min_col=1, max_col=1, values_only=True):
+    if row[0] == -1:
+        for cell in worksheet.iter_rows(min_row=row[0], max_row=row[0]):
+            for c in cell:
+                c.fill = red_fill
 
-    # Salvar as modificações no arquivo XLSX
-    writer.save()
+# Salvar o arquivo XLSX de saída
+workbook.save(output_filename)
 
-)
-pintar_linhas_verdes('SOELIST.xlsx')
+print(f"As linhas do arquivo '{filename}' foram pintadas de vermelho e salvas em '{output_filename}'.")
