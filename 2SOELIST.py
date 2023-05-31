@@ -41,7 +41,7 @@ del sostat_sosat, arquivos, sosat
 '''
 # importa o scratchpad
 scratch = pd.read_csv('scratch 17.txt', index_col=False)
-scratch = scratch.drop('Index', axis=1)
+# scratch = scratch.drop('Index', axis=1)
 
 
 alarme = pd.Series(index=scratch.index, dtype=str)
@@ -51,10 +51,13 @@ for index, row in scratch.iterrows():
         alarme[index] = row['Event']
     else:
         alarme[index] = row['Event'][12:]
+
         subNam   = alarme[index][:8]
         pointNam = alarme[index][8:]
+
         subNam = str.strip(subNam)
         pointNam = str.strip(pointNam)
+
         alarme[index] = subNam + '.' + pointNam
 
 del index, row
@@ -70,7 +73,8 @@ status = dict()
 
 
 # Inicializa o dataframe final com o cabeçalho padrão da SOELIST
-resultado = pd.DataFrame(columns=["Event Time", "Previous Event", "Status", "Tagname"])
+resultado = pd.DataFrame(columns=["Event Flag", "Event Time", "Previous Event", "Status", "Tagname"])
+
 
 
 # Percorre a Serie alarme
@@ -107,13 +111,18 @@ for index, i in enumerate(alarme):
         # Preenche o start time de todas as correspondências do sostat
         startTime = [scratch.iloc[index]['Start Time'] + '.000',] * len(corresp)
 
+        flag = [index]*len(corresp)
+
         # Salva no DF final todas as correspondências com seus respectivos status e start time
-        aux_df = pd.DataFrame({"Event Time": startTime, "Status": status, "Tagname": corresp})
+        aux_df = pd.DataFrame({"Event Flag": flag, "Event Time": startTime, "Status": status, "Tagname": corresp})
         resultado = pd.concat([resultado, aux_df], ignore_index=True)
+
 
     else:
         # Start time no formato padrão da SOELIST
         startTime = pd.Series(scratch.iloc[index]['Start Time']) + '.000'
+
+        flag = -1
 
         # Status é preenchido com uma string vazia
         status    = pd.Series('')
@@ -122,12 +131,53 @@ for index, i in enumerate(alarme):
         corresp   = pd.Series(scratch.iloc[index]['Event'])
 
         # Preenche o dataframe com o comentário encontrado
-        aux_df = pd.DataFrame({"Event Time": startTime, "Status": status, "Tagname": corresp})
+        aux_df = pd.DataFrame({"Event Flag": flag, "Event Time": startTime, "Status": status, "Tagname": corresp})
         resultado = pd.concat([resultado, aux_df], ignore_index=True)
+
 
 
 # Escreve o arquivo csv com a SOELIST completa
 resultado.to_csv('SOELIST.csv')
 
+#%%
 
-# %%
+from openpyxl.styles import PatternFill
+from openpyxl import Workbook
+
+# Criar o arquivo XLSX
+filename = 'output.xlsx'
+writer = pd.ExcelWriter(filename, engine='openpyxl')
+
+# Carregar o DataFrame para o arquivo XLSX
+resultado.to_excel(writer, index=False, sheet_name='Sheet1')
+
+# Carregar a planilha XLSX em um objeto workbook
+workbook = writer.book
+worksheet = workbook['Sheet1']
+
+# Definir as cores para pintar as células
+red_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
+green_fill = PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid')
+
+# Pintar as linhas de vermelho onde a coluna Event Flag for igual a -1
+for row in worksheet.iter_rows(min_row=2, min_col=2, max_col=2, values_only=True):
+    if row[0] == -1:
+        for cell in worksheet.iter_rows(min_row=row[0], max_row=row[0]):
+            for c in cell:
+                c.fill = red_fill
+
+# Pintar as linhas de verde onde a coluna Event Flag possuir elementos iguais
+event_flags = resultado['Event Flag'].unique()
+for flag in event_flags:
+    if flag != -1:
+        rows = resultado[resultado['Event Flag'] == flag].index + 2
+        for row in rows:
+            for cell in worksheet.iter_rows(min_row=row, max_row=row):
+                for c in cell:
+                    c.fill = green_fill
+
+# Salvar o arquivo XLSX
+writer.save()
+
+
+##%
