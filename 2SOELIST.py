@@ -46,10 +46,10 @@ scratch = pd.read_csv('scratch 17.txt', index_col=False)
 
 alarme = pd.Series(index=scratch.index, dtype=str)
 
+
+
 for index, row in scratch.iterrows():
-    if row['Description'] == ' '*48:
-        alarme[index] = row['Event']
-    else:
+    if 'STATUS PT.' in row['Event']:
         alarme[index] = row['Event'][12:]
 
         subNam   = alarme[index][:8]
@@ -57,8 +57,11 @@ for index, row in scratch.iterrows():
 
         subNam = str.strip(subNam)
         pointNam = str.strip(pointNam)
-
+        
         alarme[index] = subNam + '.' + pointNam
+    else:
+        alarme[index] = row['Event']
+
 
 del index, row
 
@@ -134,50 +137,47 @@ for index, i in enumerate(alarme):
         aux_df = pd.DataFrame({"Event Flag": flag, "Event Time": startTime, "Status": status, "Tagname": corresp})
         resultado = pd.concat([resultado, aux_df], ignore_index=True)
 
-
+del corresp, status, aux_df, startTime, i, index, flag, aux, pointNam, subNam
+del alarme, scratch
 
 # Escreve o arquivo csv com a SOELIST completa
-resultado.to_csv('SOELIST.csv')
+# resultado.to_csv('SOELIST.csv')
+resultado.to_excel('SOELIST.xlsx', index=False)
 
 #%%
 
+import pandas as pd
+import openpyxl
 from openpyxl.styles import PatternFill
-from openpyxl import Workbook
 
-# Criar o arquivo XLSX
-filename = 'output.xlsx'
-writer = pd.ExcelWriter(filename, engine='openpyxl')
+def pintar_linhas_verdes(arquivo_xlsx):
+    # Carregar o arquivo XLSX com pandas
+    df = pd.read_excel(arquivo_xlsx, engine='xlrd'
 
-# Carregar o DataFrame para o arquivo XLSX
-resultado.to_excel(writer, index=False, sheet_name='Sheet1')
+    # Criar um writer para salvar as modificações
+    writer = pd.ExcelWriter(arquivo_xlsx, engine='openpyxl', mode='a')
+    writer.book = openpyxl.load_workbook(arquivo_xlsx)
+    writer.sheets = {ws.title: ws for ws in writer.book.worksheets}
 
-# Carregar a planilha XLSX em um objeto workbook
-workbook = writer.book
-worksheet = workbook['Sheet1']
+    # Pintar as linhas especificadas de verde
+    for index, row in df.iterrows():
+        if row['Event Flag'] == -1:
+            # Obter o nome da planilha correspondente
+            sheet_name = row['Sheet1']
 
-# Definir as cores para pintar as células
-red_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
-green_fill = PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid')
+            # Obter a planilha correspondente
+            ws = writer.sheets[sheet_name]
 
-# Pintar as linhas de vermelho onde a coluna Event Flag for igual a -1
-for row in worksheet.iter_rows(min_row=2, min_col=2, max_col=2, values_only=True):
-    if row[0] == -1:
-        for cell in worksheet.iter_rows(min_row=row[0], max_row=row[0]):
-            for c in cell:
-                c.fill = red_fill
+            # Definir a formatação de preenchimento verde
+            fill = PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid')
 
-# Pintar as linhas de verde onde a coluna Event Flag possuir elementos iguais
-event_flags = resultado['Event Flag'].unique()
-for flag in event_flags:
-    if flag != -1:
-        rows = resultado[resultado['Event Flag'] == flag].index + 2
-        for row in rows:
-            for cell in worksheet.iter_rows(min_row=row, max_row=row):
-                for c in cell:
-                    c.fill = green_fill
+            # Pintar a linha de verde
+            for col in ws.iter_cols(min_row=index + 2, max_row=index + 2):
+                for cell in col:
+                    cell.fill = fill
 
-# Salvar o arquivo XLSX
-writer.save()
+    # Salvar as modificações no arquivo XLSX
+    writer.save()
 
-
-##%
+)
+pintar_linhas_verdes('SOELIST.xlsx')
