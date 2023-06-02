@@ -9,6 +9,7 @@ import glob
 from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
 from collections import Counter
+from datetime import datetime
 
 
 # Seta a pasta BD
@@ -114,8 +115,12 @@ for index, i in enumerate(alarme):
         else:
             status = list(sostat['STEXT0'][aux])
 
-        # Preenche o start time de todas as correspondências do sostat
-        startTime = [scratch.iloc[index]['Start Time'] + '.000',] * len(corresp)
+        # Start time vindo do DTS
+        startTime = pd.Series(scratch.iloc[index]['Start Time'])
+
+        # Formato do SOELIST
+        startTime = datetime.strptime(startTime[0], "%d/%b/%Y %H:%M:%S")
+        startTime = startTime.strftime("%d/%m/%y %H:%M:%S") + '.000'
 
         flag = [index]*len(corresp)
 
@@ -125,8 +130,14 @@ for index, i in enumerate(alarme):
 
 
     else:
-        # Start time no formato padrão da SOELIST
-        startTime = pd.Series(scratch.iloc[index]['Start Time']) + '.000'
+        # Start time vindo do DTS
+        startTime = pd.Series(scratch.iloc[index]['Start Time'])
+
+        # Formato do SOELIST
+        startTime = datetime.strptime(startTime[0], "%d/%b/%Y %H:%M:%S")
+        startTime = startTime.strftime("%d/%m/%y %H:%M:%S") + '.000'
+
+
 
         flag = -1
 
@@ -143,17 +154,10 @@ for index, i in enumerate(alarme):
 del corresp, status, aux_df, startTime, i, index, flag, aux, pointNam, subNam
 del alarme, scratch
 
-# Escreve o arquivo csv com a SOELIST completa
-# resultado.to_csv('SOELIST.csv')
-resultado.to_excel('SOELIST.xlsx')
-
-# Ler o arquivo XLSX
-filename = 'SOELIST.xlsx'
-df = pd.read_excel(filename)
-
+#%%
 # Criar o arquivo XLSX de saída
 output_filename = 'LISTA.xlsx'
-df.to_excel(output_filename, index=False, sheet_name='Sheet1')
+resultado.to_excel(output_filename, index=False, sheet_name='Sheet1')
 
 # Carregar o arquivo XLSX com openpyxl
 workbook = load_workbook(output_filename)
@@ -166,8 +170,8 @@ dark_green_fill = PatternFill(start_color='00B050', end_color='00B050', fill_typ
 blue_fill = PatternFill(start_color='91BCE3', end_color='91BCE3', fill_type='solid')
 
 # Pintar as linhas de acordo com as condições
-event_flag_counter = Counter(df['Event Flag'])
-for row_idx, event_flag in enumerate(df['Event Flag'], start=2):
+event_flag_counter = Counter(resultado['Event Flag'])
+for row_idx, event_flag in enumerate(resultado['Event Flag'], start=2):
     if event_flag == -1:
         for cell in worksheet[row_idx]:
             cell.fill = orang_fill
@@ -184,3 +188,5 @@ for row_idx, event_flag in enumerate(df['Event Flag'], start=2):
 
 # Salvar o arquivo XLSX de saída
 workbook.save(output_filename)
+del blue_fill, cell, dark_green_fill, event_flag, event_flag_counter, green_fill, orang_fill
+del output_filename, PatternFill, row_idx, workbook, worksheet
