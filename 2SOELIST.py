@@ -152,7 +152,7 @@ filename = 'SOELIST.xlsx'
 df = pd.read_excel(filename)
 
 # Criar o arquivo XLSX de saída
-output_filename = 'SOELIST_pintado.xlsx'
+output_filename = 'LISTA.xlsx'
 df.to_excel(output_filename, index=False, sheet_name='Sheet1')
 
 # Carregar o arquivo XLSX com openpyxl
