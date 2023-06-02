@@ -49,6 +49,7 @@ scratch = pd.read_csv('scratch 17.txt', index_col=False)
 
 
 alarme = pd.Series(index=scratch.index, dtype=str)
+flag = pd.Series(index=scratch.index, dtype=str)
 
 
 
@@ -63,8 +64,13 @@ for index, row in scratch.iterrows():
         pointNam = str.strip(pointNam)
         
         alarme[index] = subNam + '.' + pointNam
+        flag[index] = index
+    elif row['Description'] == ' '*48 :
+        flag[index] = -1
+        alarme[index] = row['Event']
     else:
         alarme[index] = row['Event']
+        flag[index] = -2
 
 
 del index, row
