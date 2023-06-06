@@ -49,7 +49,7 @@ scratch = pd.read_csv('scratch 17.txt', index_col=False)
 
 
 alarme = pd.Series(index=scratch.index, dtype=str)
-flag = pd.Series(index=scratch.index, dtype=str)
+
 
 
 
@@ -64,14 +64,8 @@ for index, row in scratch.iterrows():
         pointNam = str.strip(pointNam)
         
         alarme[index] = subNam + '.' + pointNam
-        flag[index] = index
-    elif row['Description'] == ' '*48 :
-        flag[index] = -1
-        alarme[index] = row['Event']
     else:
         alarme[index] = row['Event']
-        flag[index] = -2
-
 
 del index, row
 
@@ -143,12 +137,12 @@ for index, i in enumerate(alarme):
         startTime = datetime.strptime(startTime[0], "%d/%b/%Y %H:%M:%S")
         startTime = startTime.strftime("%d/%m/%y %H:%M:%S") + '.000'
 
-
-
-        flag = -1
-
-        # Status é preenchido com uma string vazia
-        status    = pd.Series('')
+        if ' '*48 in scratch['Description'].iloc[index]:
+            status = pd.Series(' ')
+            flag = -1
+        else:
+            status = scratch['Description'].iloc[index]
+            flag = -2
 
         # O dicionário corresp é preenchido com o comentário literal do Event
         corresp   = pd.Series(scratch.iloc[index]['Event'])
@@ -174,20 +168,31 @@ orang_fill = PatternFill(start_color='FFA500', end_color='FFA500', fill_type='li
 green_fill = PatternFill(start_color='90EE90', end_color='90EE90', fill_type='solid')
 dark_green_fill = PatternFill(start_color='00B050', end_color='00B050', fill_type='solid')
 blue_fill = PatternFill(start_color='91BCE3', end_color='91BCE3', fill_type='solid')
+red_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
+
 
 # Pintar as linhas de acordo com as condições
 event_flag_counter = Counter(resultado['Event Flag'])
+
 for row_idx, event_flag in enumerate(resultado['Event Flag'], start=2):
+
     if event_flag == -1:
         for cell in worksheet[row_idx]:
             cell.fill = orang_fill
+
+    elif event_flag == -2:
+        for cell in worksheet[row_idx]:
+            cell.fill = red_fill
+
     elif event_flag_counter[event_flag] > 1:
         if event_flag % 2 == 0:
             for cell in worksheet[row_idx]:
                 cell.fill = green_fill
+
         else:
             for cell in worksheet[row_idx]:
                 cell.fill = dark_green_fill
+
     else:
         for cell in worksheet[row_idx]:
             cell.fill = blue_fill
