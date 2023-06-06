@@ -1,8 +1,4 @@
 #%%
-'''
-#
-
-'''
 # Importa bibliotecas
 import pandas as pd
 import glob
@@ -10,6 +6,11 @@ from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
 from collections import Counter
 from datetime import datetime
+
+
+'''
+Algoritmo que importa a tagname completa e o acrônimo para Open e Close (0 e 1) do BD_SCADA
+'''
 
 
 # Seta a pasta BD
@@ -38,35 +39,50 @@ sostat = sostat_sosat
 del sostat_sosat, arquivos, sosat
 
 
+
+
 # %%
 '''
-#
-
+Cria um df contendo todas as correspondências do scratch no BD_SCADA
+Este df também possui uma coluna Event Flag
+    Que consiste em destacar quantas correspondências um alarme 
+    do scratch possui no BD_SCADA
 '''
+
+
 # importa o scratchpad
 scratch = pd.read_csv('scratch 17.txt', index_col=False)
-# scratch = scratch.drop('Index', axis=1)
 
-
+# Extrai a coluna Event do scratchpad importado
 alarme = pd.Series(index=scratch.index, dtype=str)
 
 
-
-
+# Deixa o alarme no formato padrão da SOELIST, porém ainda truncado
 for index, row in scratch.iterrows():
+    
+    # Caso o ponto seja do tipo STATUS PT
     if 'STATUS PT.' in row['Event']:
+        # 12 primeiros caracteres
         alarme[index] = row['Event'][12:]
 
+        # Separa em subNam e pointNam, por 8 caracteres
         subNam   = alarme[index][:8]
         pointNam = alarme[index][8:]
 
+        # Strip para retirar espaços em branco
         subNam = str.strip(subNam)
         pointNam = str.strip(pointNam)
         
+        # Formato padrão da SOELIST subnam.pointnam (ainda truncado!)
         alarme[index] = subNam + '.' + pointNam
     else:
+        # Caso seja comentário, ANALOG PT> ou outra coisa
+        # Ñ há a necessidade de colocar no formato da SOELIST
+        # Pois este ponto não existe no df soelist
         alarme[index] = row['Event']
 
+
+# Deleta variáveis auxiliares
 del index, row
 
 
@@ -78,10 +94,8 @@ corresp = dict()
 # Status é o STEXE0 e STEXT1 para cada correspondência
 status = dict()
 
-
 # Inicializa o dataframe final com o cabeçalho padrão da SOELIST
 resultado = pd.DataFrame(columns=["Event Flag", "Event Time", "Previous Event", "Status", "Tagname"])
-
 
 
 # Percorre a Serie alarme
@@ -92,11 +106,12 @@ for index, i in enumerate(alarme):
 
     # Caso tenha encontrado algum evento
     if aux.any():
+        # Colocar a SOSTAT encontrada no formato da SOELIST
         # Divide o Event em subnam.pointnam        
         subNam   = sostat['Tagname'][aux].map(lambda x: x.split(".", maxsplit=1)[0] if isinstance(x, str) else "")
-
         pointNam = sostat['Tagname'][aux].map(lambda x: x.split(".", maxsplit=1)[1] if isinstance(x, str) else "")
 
+        # strip em possíveis caracteres espúrios
         pointNam = pointNam.str.strip() 
         subNam   = subNam.str.strip() 
 
@@ -106,9 +121,8 @@ for index, i in enumerate(alarme):
         # Preenche o dicionário corresp com todas as correspondências do ponto no formato da SOELIST
         corresp = subNam + '.' + pointNam
 
-        # CLOSE ou OPEN (0) ou (1), sostat
+        # CLOSE(1) ou OPEN(0)
         # Preenche o status com o texto correspondente
-
         if "CLOSED" in scratch.iloc[index]['Description']:
             status = list(sostat['STEXT1'][aux])
 
@@ -122,13 +136,14 @@ for index, i in enumerate(alarme):
         startTime = datetime.strptime(startTime[0], "%d/%b/%Y %H:%M:%S")
         startTime = startTime.strftime("%d/%m/%y %H:%M:%S") + '.000'
 
+        # Índice(s) do scratch da(s) correspondência(s) na SOSTAT 
         flag = [index]*len(corresp)
 
         # Salva no DF final todas as correspondências com seus respectivos status e start time
         aux_df = pd.DataFrame({"Event Flag": flag, "Event Time": startTime, "Status": status, "Tagname": corresp})
         resultado = pd.concat([resultado, aux_df], ignore_index=True)
 
-
+    # Caso encontre nenhuma correspondência
     else:
         # Start time vindo do DTS
         startTime = pd.Series(scratch.iloc[index]['Start Time'])
@@ -137,10 +152,14 @@ for index, i in enumerate(alarme):
         startTime = datetime.strptime(startTime[0], "%d/%b/%Y %H:%M:%S")
         startTime = startTime.strftime("%d/%m/%y %H:%M:%S") + '.000'
 
+        # Detecta se isso se trata de um comentário (flag = -1)
+        # Ou de um ponto que deverá ser inserido pelo usuário (flag = -2)
         if ' '*48 in scratch['Description'].iloc[index]:
-            status = pd.Series(' ')
+            # Preenche o status com vazio
+            status = pd.Series('')
             flag = -1
         else:
+            # Preenche o status com set ou setoverride xx.xx
             status = scratch['Description'].iloc[index]
             flag = -2
 
@@ -151,17 +170,39 @@ for index, i in enumerate(alarme):
         aux_df = pd.DataFrame({"Event Flag": flag, "Event Time": startTime, "Status": status, "Tagname": corresp})
         resultado = pd.concat([resultado, aux_df], ignore_index=True)
 
+
+# Deleta variáveis auxiliares
 del corresp, status, aux_df, startTime, i, index, flag, aux, pointNam, subNam
 del alarme, scratch
 
+
+
 #%%
+'''
+Algoritmo que plota um df em um arquivo xlsx
+Event Flag
+    +n para as correspondências dos scratchpads na soelist
+    -1 para comentários
+    -2 para eventos não encontrados no BD_SCADA (ANALOG PT. e.g.)
+
+Este xlsx é separado por cores, para facilitar o usuário a preencher a soelist corretamente
+    AZUL para alarmes com correspondência única
+    VERDE claro/escuro para alarmes com mais de uma correspondência
+    LARANJA para comentários
+    VERMELHO para alarmes sem correspondência no sostat
+
+'''
+
+
 # Criar o arquivo XLSX de saída
 output_filename = 'LISTA.xlsx'
 resultado.to_excel(output_filename, index=False, sheet_name='Sheet1')
 
+
 # Carregar o arquivo XLSX com openpyxl
 workbook = load_workbook(output_filename)
 worksheet = workbook['Sheet1']
+
 
 # Definir as cores de preenchimento
 orang_fill = PatternFill(start_color='FFA500', end_color='FFA500', fill_type='lightUp')
@@ -197,7 +238,10 @@ for row_idx, event_flag in enumerate(resultado['Event Flag'], start=2):
         for cell in worksheet[row_idx]:
             cell.fill = blue_fill
 
-# Salvar o arquivo XLSX de saída
+
+# Salva o xlsx colorido com o nome de LISTA.xlsx
 workbook.save(output_filename)
+
+# Deleta variáveis auxiliares
 del blue_fill, cell, dark_green_fill, event_flag, event_flag_counter, green_fill, orang_fill
 del output_filename, PatternFill, row_idx, workbook, worksheet
