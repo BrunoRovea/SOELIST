@@ -2,8 +2,6 @@
 # Importa bibliotecas
 import pandas as pd
 import glob
-from openpyxl import load_workbook
-from openpyxl.styles import PatternFill
 from collections import Counter
 from datetime import datetime
 
@@ -172,7 +170,7 @@ for index, i in enumerate(alarme):
 
 
 # Deleta variáveis auxiliares
-del corresp, status, aux_df, startTime, i, index, flag, aux, pointNam, subNam
+del corresp, status, aux_df, startTime, i, index, flag, aux
 del alarme, scratch
 
 
@@ -192,6 +190,9 @@ Este xlsx é separado por cores, para facilitar o usuário a preencher a soelist
     VERMELHO para alarmes sem correspondência no sostat
 
 '''
+
+from openpyxl import load_workbook
+from openpyxl.styles import PatternFill
 
 
 # Criar o arquivo XLSX de saída
