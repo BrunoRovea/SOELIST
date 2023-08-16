@@ -308,7 +308,7 @@ class Application(Funcs):
         self.loc_EVT_entry = tk.Entry(self.frame_1)
         self.loc_EVT_entry.place(relx = 0.33, rely = 0.38, relwidth=0.65, relheight=0.07)
 
-        self.lb_nome = tk.Label(self.frame_1, text = "Local dos Eventos", bg = '#dfe3ee', fg='#107db2')
+        self.lb_nome = tk.Label(self.frame_1, text = "Local do Scratchpad", bg = '#dfe3ee', fg='#107db2')
         self.lb_nome.place(relx = 0.53, rely = 0.30)
 
 
